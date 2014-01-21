@@ -1,0 +1,422 @@
+Archive member included because of file (symbol)
+
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./startup/cr_startup_lpc11.o (__main)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                              ./cmsis/system_LPC11xx.o (__aeabi_uidiv)
+
+Allocating common symbols
+Common symbol       size              file
+
+dest_addr           0x10              ./src/ssp_main.o
+src_addr            0x10              ./src/ssp_main.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./startup/cr_startup_lpc11.o
+ .data          0x0000000000000000        0x0 ./startup/cr_startup_lpc11.o
+ .bss           0x0000000000000000        0x0 ./startup/cr_startup_lpc11.o
+ .text          0x0000000000000000        0x0 ./src/ssp_main.o
+ .data          0x0000000000000000        0x0 ./src/ssp_main.o
+ .bss           0x0000000000000000        0x0 ./src/ssp_main.o
+ .rodata.LPC_GPIO
+                0x0000000000000000       0x10 ./src/ssp_main.o
+ .text.SSP_LoopbackTest
+                0x0000000000000000       0xc0 ./src/ssp_main.o
+ .text          0x0000000000000000        0x0 ./driver/can.o
+ .data          0x0000000000000000        0x0 ./driver/can.o
+ .bss           0x0000000000000000        0x0 ./driver/can.o
+ .text          0x0000000000000000        0x0 ./driver/crp.o
+ .data          0x0000000000000000        0x0 ./driver/crp.o
+ .bss           0x0000000000000000        0x0 ./driver/crp.o
+ .text          0x0000000000000000        0x0 ./driver/gpio.o
+ .data          0x0000000000000000        0x0 ./driver/gpio.o
+ .bss           0x0000000000000000        0x0 ./driver/gpio.o
+ .text.GPIOInit
+                0x0000000000000000       0x1c ./driver/gpio.o
+ .text.GPIOSetInterrupt
+                0x0000000000000000      0x334 ./driver/gpio.o
+ .text.GPIOIntEnable
+                0x0000000000000000       0xa8 ./driver/gpio.o
+ .text.GPIOIntDisable
+                0x0000000000000000       0xa8 ./driver/gpio.o
+ .text.GPIOIntStatus
+                0x0000000000000000       0xb4 ./driver/gpio.o
+ .text.GPIOIntClear
+                0x0000000000000000       0xa8 ./driver/gpio.o
+ .text          0x0000000000000000        0x0 ./driver/ssp.o
+ .data          0x0000000000000000        0x0 ./driver/ssp.o
+ .bss           0x0000000000000000        0x0 ./driver/ssp.o
+ .rodata.LPC_GPIO
+                0x0000000000000000       0x10 ./driver/ssp.o
+ .text          0x0000000000000000        0x0 ./cmsis/core_cm0.o
+ .data          0x0000000000000000        0x0 ./cmsis/core_cm0.o
+ .bss           0x0000000000000000        0x0 ./cmsis/core_cm0.o
+ .text.__get_PSP
+                0x0000000000000000        0x8 ./cmsis/core_cm0.o
+ .text.__set_PSP
+                0x0000000000000000        0x6 ./cmsis/core_cm0.o
+ .text.__get_MSP
+                0x0000000000000000        0x8 ./cmsis/core_cm0.o
+ .text.__set_MSP
+                0x0000000000000000        0x6 ./cmsis/core_cm0.o
+ .text.__get_PRIMASK
+                0x0000000000000000        0x6 ./cmsis/core_cm0.o
+ .text.__set_PRIMASK
+                0x0000000000000000        0x6 ./cmsis/core_cm0.o
+ .text.__get_CONTROL
+                0x0000000000000000        0x6 ./cmsis/core_cm0.o
+ .text.__set_CONTROL
+                0x0000000000000000        0x6 ./cmsis/core_cm0.o
+ .text.__REV    0x0000000000000000        0x4 ./cmsis/core_cm0.o
+ .text.__REV16  0x0000000000000000        0x4 ./cmsis/core_cm0.o
+ .text.__REVSH  0x0000000000000000        0x4 ./cmsis/core_cm0.o
+ .text          0x0000000000000000        0x0 ./cmsis/system_LPC11xx.o
+ .data          0x0000000000000000        0x0 ./cmsis/system_LPC11xx.o
+ .bss           0x0000000000000000        0x0 ./cmsis/system_LPC11xx.o
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivmod
+                0x0000000000000000        0x6 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uldivmod
+                0x0000000000000000       0x5a /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x0000000000000000       0x32 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x0000000000000000        0x2 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivq31+15
+                0x0000000000000000      0x188 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x0000000000000000 0x0000000000008000 xr
+RamLoc8          0x0000000010000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./startup/cr_startup_lpc11.o
+LOAD ./src/ssp_main.o
+LOAD ./driver/can.o
+LOAD ./driver/crp.o
+LOAD ./driver/gpio.o
+LOAD ./driver/ssp.o
+LOAD ./cmsis/core_cm0.o
+LOAD ./cmsis/system_LPC11xx.o
+START GROUP
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x0000000000008000                __top_MFlash32 = 0x8000
+                0x0000000010002000                __top_RamLoc8 = 0x10002000
+
+.text           0x0000000000000000      0xe94
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./startup/cr_startup_lpc11.o
+                0x0000000000000000                g_pfnVectors
+ *(.text.Reset_Handler .text.SystemInit)
+ .text.SystemInit
+                0x00000000000000c0       0xb0 ./cmsis/system_LPC11xx.o
+                0x00000000000000c0                SystemInit
+                0x00000000000002fc                . = 0x2fc
+ *fill*         0x0000000000000170      0x18c ff
+ *(.crp)
+ .crp           0x00000000000002fc        0x4 ./driver/crp.o
+                0x00000000000002fc                CRP_WORD
+ *(.text*)
+ .text.ResetISR
+                0x0000000000000300       0x64 ./startup/cr_startup_lpc11.o
+                0x0000000000000300                ResetISR
+ .text.NMI_Handler
+                0x0000000000000364        0x8 ./startup/cr_startup_lpc11.o
+                0x0000000000000364                NMI_Handler
+ .text.HardFault_Handler
+                0x000000000000036c        0x8 ./startup/cr_startup_lpc11.o
+                0x000000000000036c                HardFault_Handler
+ .text.SVCall_Handler
+                0x0000000000000374        0x8 ./startup/cr_startup_lpc11.o
+                0x0000000000000374                SVCall_Handler
+ .text.PendSV_Handler
+                0x000000000000037c        0x8 ./startup/cr_startup_lpc11.o
+                0x000000000000037c                PendSV_Handler
+ .text.SysTick_Handler
+                0x0000000000000384        0x8 ./startup/cr_startup_lpc11.o
+                0x0000000000000384                SysTick_Handler
+ .text.IntDefaultHandler
+                0x000000000000038c        0x8 ./startup/cr_startup_lpc11.o
+                0x000000000000038c                PIOINT3_IRQHandler
+                0x000000000000038c                UART_IRQHandler
+                0x000000000000038c                TIMER32_0_IRQHandler
+                0x000000000000038c                TIMER32_1_IRQHandler
+                0x000000000000038c                IntDefaultHandler
+                0x000000000000038c                PIOINT1_IRQHandler
+                0x000000000000038c                CAN_IRQHandler
+                0x000000000000038c                TIMER16_1_IRQHandler
+                0x000000000000038c                ADC_IRQHandler
+                0x000000000000038c                PIOINT2_IRQHandler
+                0x000000000000038c                BOD_IRQHandler
+                0x000000000000038c                WAKEUP_IRQHandler
+                0x000000000000038c                PIOINT0_IRQHandler
+                0x000000000000038c                I2C_IRQHandler
+                0x000000000000038c                WDT_IRQHandler
+                0x000000000000038c                TIMER16_0_IRQHandler
+ .text.SSP_SEEPROMTest
+                0x0000000000000394      0x3e4 ./src/ssp_main.o
+                0x0000000000000394                SSP_SEEPROMTest
+ .text.main     0x0000000000000778       0x80 ./src/ssp_main.o
+                0x0000000000000778                main
+ .text.GPIOSetValue
+                0x00000000000007f8       0x38 ./driver/gpio.o
+                0x00000000000007f8                GPIOSetValue
+ .text.GPIOSetDir
+                0x0000000000000830       0x74 ./driver/gpio.o
+                0x0000000000000830                GPIOSetDir
+ .text.NVIC_EnableIRQ
+                0x00000000000008a4       0x2c ./driver/ssp.o
+ .text.SSP0_IRQHandler
+                0x00000000000008d0       0x68 ./driver/ssp.o
+                0x00000000000008d0                SSP0_IRQHandler
+ .text.SSP1_IRQHandler
+                0x0000000000000938       0x68 ./driver/ssp.o
+                0x0000000000000938                SSP1_IRQHandler
+ .text.SSP_IOConfig
+                0x00000000000009a0      0x164 ./driver/ssp.o
+                0x00000000000009a0                SSP_IOConfig
+ .text.SSP_Init
+                0x0000000000000b04       0xcc ./driver/ssp.o
+                0x0000000000000b04                SSP_Init
+ .text.SSP_Send
+                0x0000000000000bd0       0xc0 ./driver/ssp.o
+                0x0000000000000bd0                SSP_Send
+ .text.SSP_Receive
+                0x0000000000000c90       0x8c ./driver/ssp.o
+                0x0000000000000c90                SSP_Receive
+ .text.SystemCoreClockUpdate
+                0x0000000000000d1c       0xac ./cmsis/system_LPC11xx.o
+                0x0000000000000d1c                SystemCoreClockUpdate
+ .text.__weak_main
+                0x0000000000000dc8        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x0000000000000dc8                __main
+                0x0000000000000dc8                __weak_main
+ .text.__aeabi_division_uidivmod
+                0x0000000000000dd0       0x72 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                0x0000000000000dd0                __aeabi_uidiv
+                0x0000000000000dd0                __aeabi_uidivmod
+ .text.__aeabi_division_idiv0
+                0x0000000000000e42        0x2 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                0x0000000000000e42                __aeabi_idiv0
+ *(.rodata*)
+ .rodata.LPC_GPIO
+                0x0000000000000e44       0x10 ./driver/gpio.o
+ .rodata.CSWTCH.7
+                0x0000000000000e54       0x40 ./cmsis/system_LPC11xx.o
+
+.glue_7         0x0000000000000e94        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000000e94        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000e94        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000000e94        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000000e94                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000e94                __exidx_end = .
+                0x0000000000000e94                _etext = .
+
+.data           0x0000000010000000        0x4 load address 0x0000000000000e94
+                0x0000000010000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.SystemCoreClock
+                0x0000000010000000        0x4 ./cmsis/system_LPC11xx.o
+                0x0000000010000000                SystemCoreClock
+                0x0000000010000004                _edata = .
+
+.bss            0x0000000010000004       0x38 load address 0x0000000000000e98
+                0x0000000010000004                _bss = .
+ *(.bss*)
+ .bss.interruptRxStat0
+                0x0000000010000004        0x4 ./driver/ssp.o
+                0x0000000010000004                interruptRxStat0
+ .bss.interruptOverRunStat0
+                0x0000000010000008        0x4 ./driver/ssp.o
+                0x0000000010000008                interruptOverRunStat0
+ .bss.interruptRxTimeoutStat0
+                0x000000001000000c        0x4 ./driver/ssp.o
+                0x000000001000000c                interruptRxTimeoutStat0
+ .bss.interruptRxStat1
+                0x0000000010000010        0x4 ./driver/ssp.o
+                0x0000000010000010                interruptRxStat1
+ .bss.interruptOverRunStat1
+                0x0000000010000014        0x4 ./driver/ssp.o
+                0x0000000010000014                interruptOverRunStat1
+ .bss.interruptRxTimeoutStat1
+                0x0000000010000018        0x4 ./driver/ssp.o
+                0x0000000010000018                interruptRxTimeoutStat1
+ *(COMMON)
+ COMMON         0x000000001000001c       0x20 ./src/ssp_main.o
+                0x000000001000001c                dest_addr
+                0x000000001000002c                src_addr
+                0x000000001000003c                _ebss = .
+
+.cr_heap        0x000000001000003c        0x0 load address 0x0000000000000e98
+                0x000000001000003c                end = .
+                0x000000001000003c                _pvHeapStart = .
+                0x0000000010002000                _vRamTop = __top_RamLoc8
+                0x0000000010002000                _vStackTop = _vRamTop
+OUTPUT(ssp.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x2661
+ .debug_info    0x0000000000000000      0x1ec ./startup/cr_startup_lpc11.o
+ .debug_info    0x00000000000001ec      0x5a3 ./src/ssp_main.o
+ .debug_info    0x000000000000078f       0x70 ./driver/can.o
+ .debug_info    0x00000000000007ff       0x92 ./driver/crp.o
+ .debug_info    0x0000000000000891      0x7fb ./driver/gpio.o
+ .debug_info    0x000000000000108c      0xd9f ./driver/ssp.o
+ .debug_info    0x0000000000001e2b      0x2ae ./cmsis/core_cm0.o
+ .debug_info    0x00000000000020d9      0x588 ./cmsis/system_LPC11xx.o
+
+.debug_abbrev   0x0000000000000000      0x822
+ .debug_abbrev  0x0000000000000000       0xb4 ./startup/cr_startup_lpc11.o
+ .debug_abbrev  0x00000000000000b4      0x179 ./src/ssp_main.o
+ .debug_abbrev  0x000000000000022d       0x2c ./driver/can.o
+ .debug_abbrev  0x0000000000000259       0x51 ./driver/crp.o
+ .debug_abbrev  0x00000000000002aa      0x192 ./driver/gpio.o
+ .debug_abbrev  0x000000000000043c      0x1fa ./driver/ssp.o
+ .debug_abbrev  0x0000000000000636       0xaf ./cmsis/core_cm0.o
+ .debug_abbrev  0x00000000000006e5      0x13d ./cmsis/system_LPC11xx.o
+
+.debug_loc      0x0000000000000000      0x6ce
+ .debug_loc     0x0000000000000000      0x140 ./startup/cr_startup_lpc11.o
+ .debug_loc     0x0000000000000140       0xa8 ./src/ssp_main.o
+ .debug_loc     0x00000000000001e8      0x1b4 ./driver/gpio.o
+ .debug_loc     0x000000000000039c      0x188 ./driver/ssp.o
+ .debug_loc     0x0000000000000524      0x112 ./cmsis/core_cm0.o
+ .debug_loc     0x0000000000000636       0x98 ./cmsis/system_LPC11xx.o
+
+.debug_aranges  0x0000000000000000      0x1c0
+ .debug_aranges
+                0x0000000000000000       0x50 ./startup/cr_startup_lpc11.o
+ .debug_aranges
+                0x0000000000000050       0x30 ./src/ssp_main.o
+ .debug_aranges
+                0x0000000000000080       0x58 ./driver/gpio.o
+ .debug_aranges
+                0x00000000000000d8       0x50 ./driver/ssp.o
+ .debug_aranges
+                0x0000000000000128       0x70 ./cmsis/core_cm0.o
+ .debug_aranges
+                0x0000000000000198       0x28 ./cmsis/system_LPC11xx.o
+
+.debug_ranges   0x0000000000000000      0x160
+ .debug_ranges  0x0000000000000000       0x40 ./startup/cr_startup_lpc11.o
+ .debug_ranges  0x0000000000000040       0x20 ./src/ssp_main.o
+ .debug_ranges  0x0000000000000060       0x48 ./driver/gpio.o
+ .debug_ranges  0x00000000000000a8       0x40 ./driver/ssp.o
+ .debug_ranges  0x00000000000000e8       0x60 ./cmsis/core_cm0.o
+ .debug_ranges  0x0000000000000148       0x18 ./cmsis/system_LPC11xx.o
+
+.debug_line     0x0000000000000000     0x2108
+ .debug_line    0x0000000000000000      0x3f8 ./startup/cr_startup_lpc11.o
+ .debug_line    0x00000000000003f8      0x526 ./src/ssp_main.o
+ .debug_line    0x000000000000091e      0x36e ./driver/can.o
+ .debug_line    0x0000000000000c8c      0x377 ./driver/crp.o
+ .debug_line    0x0000000000001003      0x46c ./driver/gpio.o
+ .debug_line    0x000000000000146f      0x4c4 ./driver/ssp.o
+ .debug_line    0x0000000000001933      0x3eb ./cmsis/core_cm0.o
+ .debug_line    0x0000000000001d1e      0x3ea ./cmsis/system_LPC11xx.o
+
+.debug_macinfo  0x0000000000000000    0x2b697
+ .debug_macinfo
+                0x0000000000000000     0x3e81 ./startup/cr_startup_lpc11.o
+ .debug_macinfo
+                0x0000000000003e81     0x6178 ./src/ssp_main.o
+ .debug_macinfo
+                0x0000000000009ff9     0x5d85 ./driver/can.o
+ .debug_macinfo
+                0x000000000000fd7e     0x5eca ./driver/crp.o
+ .debug_macinfo
+                0x0000000000015c48     0x5dbd ./driver/gpio.o
+ .debug_macinfo
+                0x000000000001ba05     0x6155 ./driver/ssp.o
+ .debug_macinfo
+                0x0000000000021b5a     0x3c50 ./cmsis/core_cm0.o
+ .debug_macinfo
+                0x00000000000257aa     0x5eed ./cmsis/system_LPC11xx.o
+
+.debug_str      0x0000000000000000      0xb6c
+ .debug_str     0x0000000000000000      0x1ae ./startup/cr_startup_lpc11.o
+                                        0x1e2 (size before relaxing)
+ .debug_str     0x00000000000001ae      0x224 ./src/ssp_main.o
+                                        0x334 (size before relaxing)
+ .debug_str     0x00000000000003d2       0x10 ./driver/can.o
+                                        0x120 (size before relaxing)
+ .debug_str     0x00000000000003e2       0x19 ./driver/crp.o
+                                        0x132 (size before relaxing)
+ .debug_str     0x00000000000003fb      0x32f ./driver/gpio.o
+                                        0x491 (size before relaxing)
+ .debug_str     0x000000000000072a      0x31b ./driver/ssp.o
+                                        0x88c (size before relaxing)
+ .debug_str     0x0000000000000a45       0xce ./cmsis/core_cm0.o
+                                        0x1f7 (size before relaxing)
+ .debug_str     0x0000000000000b13       0x59 ./cmsis/system_LPC11xx.o
+                                        0x41e (size before relaxing)
+
+.comment        0x0000000000000000       0x70
+ .comment       0x0000000000000000       0x70 ./startup/cr_startup_lpc11.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ./src/ssp_main.o
+ .comment       0x0000000000000000       0x71 ./driver/can.o
+ .comment       0x0000000000000000       0x71 ./driver/crp.o
+ .comment       0x0000000000000000       0x71 ./driver/gpio.o
+ .comment       0x0000000000000000       0x71 ./driver/ssp.o
+ .comment       0x0000000000000000       0x71 ./cmsis/core_cm0.o
+ .comment       0x0000000000000000       0x71 ./cmsis/system_LPC11xx.o
+ .comment       0x0000000000000000       0x71 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2f
+ .ARM.attributes
+                0x0000000000000000       0x31 ./startup/cr_startup_lpc11.o
+ .ARM.attributes
+                0x0000000000000031       0x31 ./src/ssp_main.o
+ .ARM.attributes
+                0x0000000000000062       0x31 ./driver/can.o
+ .ARM.attributes
+                0x0000000000000093       0x31 ./driver/crp.o
+ .ARM.attributes
+                0x00000000000000c4       0x31 ./driver/gpio.o
+ .ARM.attributes
+                0x00000000000000f5       0x31 ./driver/ssp.o
+ .ARM.attributes
+                0x0000000000000126       0x31 ./cmsis/core_cm0.o
+ .ARM.attributes
+                0x0000000000000157       0x31 ./cmsis/system_LPC11xx.o
+ .ARM.attributes
+                0x0000000000000188       0x31 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000000000001b9       0x21 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+
+.debug_frame    0x0000000000000000      0x44c
+ .debug_frame   0x0000000000000000       0xd8 ./startup/cr_startup_lpc11.o
+ .debug_frame   0x00000000000000d8       0x70 ./src/ssp_main.o
+ .debug_frame   0x0000000000000148      0x10c ./driver/gpio.o
+ .debug_frame   0x0000000000000254       0xf0 ./driver/ssp.o
+ .debug_frame   0x0000000000000344       0xc0 ./cmsis/core_cm0.o
+ .debug_frame   0x0000000000000404       0x48 ./cmsis/system_LPC11xx.o

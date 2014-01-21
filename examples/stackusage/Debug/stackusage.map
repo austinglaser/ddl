@@ -1,0 +1,615 @@
+Archive member included because of file (symbol)
+
+/Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+                              ./driver/debug_printf.o (printf_format_nofloat)
+/Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+                              /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o) (prints)
+/Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+                              ./driver/debug_printf.o (small_strlen)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+                              ./src/stackusage_main.o (memcpy)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+                              ./src/stack.o (__heaps)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./config/stackusage_cr_startup_lpc11.o (__main)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+                              ./driver/debug_printf.o (__write)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                              ./driver/debug_printf.o (__aeabi_idivmod)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+                              /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o) (__aeabi_dsub)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+                              /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o) (__aeabi_lmul)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+                              /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+fseek               0x4               ./driver/debug_printf.o
+fclose              0x4               ./driver/debug_printf.o
+g_bs                0x124             ./src/stackusage_main.o
+__heaps             0x4               /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+__end_of_heap       0x4               /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./src/stack.o
+ .data          0x0000000000000000        0x0 ./src/stack.o
+ .bss           0x0000000000000000        0x0 ./src/stack.o
+ .text          0x0000000000000000        0x0 ./src/stackusage_main.o
+ .data          0x0000000000000000        0x0 ./src/stackusage_main.o
+ .bss           0x0000000000000000        0x0 ./src/stackusage_main.o
+ .bss.i.4171    0x0000000000000000        0x4 ./src/stackusage_main.o
+ .text          0x0000000000000000        0x0 ./driver/crp.o
+ .data          0x0000000000000000        0x0 ./driver/crp.o
+ .bss           0x0000000000000000        0x0 ./driver/crp.o
+ .text          0x0000000000000000        0x0 ./driver/debug_printf.o
+ .data          0x0000000000000000        0x0 ./driver/debug_printf.o
+ .bss           0x0000000000000000        0x0 ./driver/debug_printf.o
+ .bss.debug_read_buf
+                0x0000000000000000       0x18 ./driver/debug_printf.o
+ .text._debug_getstr
+                0x0000000000000000       0x58 ./driver/debug_printf.o
+ .text._debug_puts
+                0x0000000000000000       0x30 ./driver/debug_printf.o
+ COMMON         0x0000000000000000        0x8 ./driver/debug_printf.o
+ .text          0x0000000000000000        0x0 ./config/stackusage_cr_startup_lpc11.o
+ .data          0x0000000000000000        0x0 ./config/stackusage_cr_startup_lpc11.o
+ .bss           0x0000000000000000        0x0 ./config/stackusage_cr_startup_lpc11.o
+ .text          0x0000000000000000        0x0 ./cmsis/core_cm0.o
+ .data          0x0000000000000000        0x0 ./cmsis/core_cm0.o
+ .bss           0x0000000000000000        0x0 ./cmsis/core_cm0.o
+ .text.__get_PSP
+                0x0000000000000000       0x10 ./cmsis/core_cm0.o
+ .text.__set_PSP
+                0x0000000000000000        0x8 ./cmsis/core_cm0.o
+ .text.__get_MSP
+                0x0000000000000000       0x10 ./cmsis/core_cm0.o
+ .text.__set_MSP
+                0x0000000000000000        0x8 ./cmsis/core_cm0.o
+ .text.__get_PRIMASK
+                0x0000000000000000       0x1c ./cmsis/core_cm0.o
+ .text.__set_PRIMASK
+                0x0000000000000000       0x14 ./cmsis/core_cm0.o
+ .text.__get_CONTROL
+                0x0000000000000000       0x1c ./cmsis/core_cm0.o
+ .text.__set_CONTROL
+                0x0000000000000000       0x14 ./cmsis/core_cm0.o
+ .text.__REV    0x0000000000000000       0x1c ./cmsis/core_cm0.o
+ .text.__REV16  0x0000000000000000       0x24 ./cmsis/core_cm0.o
+ .text.__REVSH  0x0000000000000000       0x24 ./cmsis/core_cm0.o
+ .text          0x0000000000000000        0x0 ./cmsis/system_LPC11xx.o
+ .data          0x0000000000000000        0x0 ./cmsis/system_LPC11xx.o
+ .bss           0x0000000000000000        0x0 ./cmsis/system_LPC11xx.o
+ .text          0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .data          0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .bss           0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .text.func_printf_nofloat
+                0x0000000000000000       0x16 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .text.nsprintf
+                0x0000000000000000       0x24 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .text          0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .data          0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss           0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text.nsprintf_write_init
+                0x0000000000000000       0x1c /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text.nsprintf_write
+                0x0000000000000000       0x30 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss.nsprintf_buffer_index
+                0x0000000000000000        0x4 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss.nsprintf_buffer
+                0x0000000000000000        0x4 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .bss.nsprintf_buffer_length
+                0x0000000000000000        0x4 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .text          0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .data          0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .bss           0x0000000000000000        0x0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_strlen
+                0x0000000000000000       0x12 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_strcmp
+                0x0000000000000000       0x1e /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_stricmp
+                0x0000000000000000       0x34 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_strim
+                0x0000000000000000       0x2c /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.gethex   0x0000000000000000       0x34 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text.small_fmodf
+                0x0000000000000000       0x68 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .text._init_alloc
+                0x0000000000000000       0x14 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uldivmod
+                0x0000000000000000       0x5a /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x0000000000000000       0x32 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x0000000000000000        0x2 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivq31+15
+                0x0000000000000000      0x188 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dmul
+                0x0000000000000000      0x180 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ddiv
+                0x0000000000000000      0x178 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dsub
+                0x0000000000000000      0x1d8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dadd
+                0x0000000000000000      0x140 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_drsub
+                0x0000000000000000       0x28 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dneg
+                0x0000000000000000       0x10 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2f
+                0x0000000000000000       0x5c /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2iz
+                0x0000000000000000       0x4c /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2uiz
+                0x0000000000000000       0x38 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2lz
+                0x0000000000000000       0x78 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2ulz
+                0x0000000000000000       0x58 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ui2d
+                0x0000000000000000       0x5e /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ul2d
+                0x0000000000000000       0xb4 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_i2d
+                0x0000000000000000       0x16 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ui2d
+                0x0000000000000000        0xc /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_l2d
+                0x0000000000000000       0x20 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ul2d
+                0x0000000000000000        0xc /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpeq
+                0x0000000000000000       0x40 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmplt
+                0x0000000000000000       0x64 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpgt
+                0x0000000000000000       0x64 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmple
+                0x0000000000000000       0x64 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpge
+                0x0000000000000000       0x64 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpun
+                0x0000000000000000       0x1c /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdcmple
+                0x0000000000000000       0x2e /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdrcmple
+                0x0000000000000000       0x14 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lmul
+                0x0000000000000000       0x2e /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsl
+                0x0000000000000000       0x18 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsr
+                0x0000000000000000       0x18 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lasr
+                0x0000000000000000       0x18 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lcmp
+                0x0000000000000000       0x14 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_ulcmp
+                0x0000000000000000       0x10 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x0000000000000000       0x1c /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset_lowlevel
+                0x0000000000000000       0x2a /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x0000000000000000        0x6 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x0000000000000000        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x0000000000000000 0x0000000000008000 xr
+RamLoc8          0x0000000010000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/stack.o
+LOAD ./src/stackusage_main.o
+LOAD ./driver/crp.o
+LOAD ./driver/debug_printf.o
+LOAD ./config/stackusage_cr_startup_lpc11.o
+LOAD ./cmsis/core_cm0.o
+LOAD ./cmsis/system_LPC11xx.o
+LOAD /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a
+START GROUP
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x0000000000008000                __top_MFlash32 = 0x8000
+                0x0000000010002000                __top_RamLoc8 = 0x10002000
+
+.text           0x0000000000000000      0xc6b
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./config/stackusage_cr_startup_lpc11.o
+                0x0000000000000000                g_pfnVectors
+ *(.text.Reset_Handler .text.SystemInit)
+ .text.SystemInit
+                0x00000000000000c0       0xb0 ./cmsis/system_LPC11xx.o
+                0x00000000000000c0                SystemInit
+                0x00000000000002fc                . = 0x2fc
+ *fill*         0x0000000000000170      0x18c ff
+ *(.crp)
+ .crp           0x00000000000002fc        0x4 ./driver/crp.o
+                0x00000000000002fc                CRP_WORD
+ *(.text*)
+ .text.StackHeapInit
+                0x0000000000000300       0x30 ./src/stack.o
+                0x0000000000000300                StackHeapInit
+ .text.StackHeapFree
+                0x0000000000000330       0x54 ./src/stack.o
+                0x0000000000000330                StackHeapFree
+ .text.StackHeapMinFree
+                0x0000000000000384       0x9c ./src/stack.o
+                0x0000000000000384                StackHeapMinFree
+ .text.callme   0x0000000000000420       0xa8 ./src/stackusage_main.o
+                0x0000000000000420                callme
+ .text.main     0x00000000000004c8       0xa8 ./src/stackusage_main.o
+                0x00000000000004c8                main
+ .text._debug_printf_flush
+                0x0000000000000570       0xa8 ./driver/debug_printf.o
+                0x0000000000000570                _debug_printf_flush
+ .text._debug_putchar
+                0x0000000000000618       0x88 ./driver/debug_printf.o
+                0x0000000000000618                _debug_putchar
+ .text._debug_printf
+                0x00000000000006a0       0x30 ./driver/debug_printf.o
+                0x00000000000006a0                _debug_printf
+ .text.ResetISR
+                0x00000000000006d0       0x68 ./config/stackusage_cr_startup_lpc11.o
+                0x00000000000006d0                ResetISR
+ .text.NMI_Handler
+                0x0000000000000738        0x8 ./config/stackusage_cr_startup_lpc11.o
+                0x0000000000000738                NMI_Handler
+ .text.HardFault_Handler
+                0x0000000000000740        0x8 ./config/stackusage_cr_startup_lpc11.o
+                0x0000000000000740                HardFault_Handler
+ .text.SVCall_Handler
+                0x0000000000000748        0x8 ./config/stackusage_cr_startup_lpc11.o
+                0x0000000000000748                SVCall_Handler
+ .text.PendSV_Handler
+                0x0000000000000750        0x8 ./config/stackusage_cr_startup_lpc11.o
+                0x0000000000000750                PendSV_Handler
+ .text.SysTick_Handler
+                0x0000000000000758        0x8 ./config/stackusage_cr_startup_lpc11.o
+                0x0000000000000758                SysTick_Handler
+ .text.IntDefaultHandler
+                0x0000000000000760        0x8 ./config/stackusage_cr_startup_lpc11.o
+                0x0000000000000760                PIOINT3_IRQHandler
+                0x0000000000000760                UART_IRQHandler
+                0x0000000000000760                TIMER32_0_IRQHandler
+                0x0000000000000760                TIMER32_1_IRQHandler
+                0x0000000000000760                IntDefaultHandler
+                0x0000000000000760                PIOINT1_IRQHandler
+                0x0000000000000760                CAN_IRQHandler
+                0x0000000000000760                SSP0_IRQHandler
+                0x0000000000000760                TIMER16_1_IRQHandler
+                0x0000000000000760                ADC_IRQHandler
+                0x0000000000000760                SSP1_IRQHandler
+                0x0000000000000760                PIOINT2_IRQHandler
+                0x0000000000000760                BOD_IRQHandler
+                0x0000000000000760                WAKEUP_IRQHandler
+                0x0000000000000760                PIOINT0_IRQHandler
+                0x0000000000000760                I2C_IRQHandler
+                0x0000000000000760                WDT_IRQHandler
+                0x0000000000000760                TIMER16_0_IRQHandler
+ .text.SystemCoreClockUpdate
+                0x0000000000000768       0xac ./cmsis/system_LPC11xx.o
+                0x0000000000000768                SystemCoreClockUpdate
+ .text.printf_format_nofloat
+                0x0000000000000814      0x18c /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+                0x0000000000000814                printf_format_nofloat
+ .text.prints   0x00000000000009a0       0x7a /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+                0x00000000000009a0                prints
+ .text.printi   0x0000000000000a1a       0xa4 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+                0x0000000000000a1a                printi
+ .text.memcpy   0x0000000000000abe        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+                0x0000000000000abe                memcpy
+ .text.__weak_main
+                0x0000000000000ac6        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x0000000000000ac6                __main
+                0x0000000000000ac6                __weak_main
+ .text.__sys_write
+                0x0000000000000ace        0xc /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+                0x0000000000000ace                __write
+                0x0000000000000ace                __sys_write
+ .text.__aeabi_division_idivmod
+                0x0000000000000ada        0x6 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                0x0000000000000ada                __aeabi_idiv
+                0x0000000000000ada                __aeabi_idivmod
+ .text.__aeabi_division_uidivmod
+                0x0000000000000ae0       0x72 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                0x0000000000000ae0                __aeabi_uidiv
+                0x0000000000000ae0                __aeabi_uidivmod
+ .text.__aeabi_division_idiv0
+                0x0000000000000b52        0x2 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                0x0000000000000b52                __aeabi_idiv0
+ .text.__aeabi_memcpy
+                0x0000000000000b54       0x2c /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+                0x0000000000000b54                __aeabi_memcpy
+                0x0000000000000b54                __aeabi_memcpy4
+                0x0000000000000b54                __aeabi_memcpy8
+ *(.rodata*)
+ .rodata.stackinitconst
+                0x0000000000000b80        0x4 ./src/stack.o
+                0x0000000000000b80                stackinitconst
+ .rodata        0x0000000000000b84       0xa0 ./src/stackusage_main.o
+ .rodata.CSWTCH.7
+                0x0000000000000c24       0x40 ./cmsis/system_LPC11xx.o
+ .rodata.str1.1
+                0x0000000000000c64        0x7 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+
+.glue_7         0x0000000000000c6c        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000000c6c        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000c6c        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000000c6c        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000000c6c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000c6c                __exidx_end = .
+                0x0000000000000c6c                _etext = .
+
+.data           0x0000000010000000        0x4 load address 0x0000000000000c6b
+                0x0000000010000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.SystemCoreClock
+                0x0000000010000000        0x4 ./cmsis/system_LPC11xx.o
+                0x0000000010000000                SystemCoreClock
+                0x0000000010000004                _edata = .
+
+.bss            0x0000000010000004      0x188 load address 0x0000000000000c6f
+                0x0000000010000004                _bss = .
+ *(.bss*)
+ .bss.callcount
+                0x0000000010000004        0x4 ./src/stackusage_main.o
+ .bss.debug_write_buf
+                0x0000000010000008       0x54 ./driver/debug_printf.o
+ .bss.debug_buf_read_index
+                0x000000001000005c        0x1 ./driver/debug_printf.o
+ .bss.debug_buf_write_index
+                0x000000001000005d        0x1 ./driver/debug_printf.o
+ *(COMMON)
+ *fill*         0x000000001000005e        0x2 00
+ COMMON         0x0000000010000060      0x124 ./src/stackusage_main.o
+                0x0000000010000060                g_bs
+ COMMON         0x0000000010000184        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+                0x0000000010000184                __heaps
+                0x0000000010000188                __end_of_heap
+                0x000000001000018c                _ebss = .
+
+.cr_heap        0x000000001000018c        0x0 load address 0x0000000000000c6f
+                0x000000001000018c                end = .
+                0x000000001000018c                _pvHeapStart = .
+                0x0000000010002000                _vRamTop = __top_RamLoc8
+                0x0000000010002000                _vStackTop = _vRamTop
+OUTPUT(stackusage.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x16f3
+ .debug_info    0x0000000000000000      0x168 ./src/stack.o
+ .debug_info    0x0000000000000168      0x196 ./src/stackusage_main.o
+ .debug_info    0x00000000000002fe       0x92 ./driver/crp.o
+ .debug_info    0x0000000000000390      0x257 ./driver/debug_printf.o
+ .debug_info    0x00000000000005e7      0x1fb ./config/stackusage_cr_startup_lpc11.o
+ .debug_info    0x00000000000007e2      0x2ab ./cmsis/core_cm0.o
+ .debug_info    0x0000000000000a8d      0x588 ./cmsis/system_LPC11xx.o
+ .debug_info    0x0000000000001015      0x257 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_info    0x000000000000126c      0x2c0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_info    0x000000000000152c      0x1c7 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_abbrev   0x0000000000000000      0x90c
+ .debug_abbrev  0x0000000000000000       0x94 ./src/stack.o
+ .debug_abbrev  0x0000000000000094       0xfa ./src/stackusage_main.o
+ .debug_abbrev  0x000000000000018e       0x51 ./driver/crp.o
+ .debug_abbrev  0x00000000000001df      0x120 ./driver/debug_printf.o
+ .debug_abbrev  0x00000000000002ff       0xca ./config/stackusage_cr_startup_lpc11.o
+ .debug_abbrev  0x00000000000003c9       0xd0 ./cmsis/core_cm0.o
+ .debug_abbrev  0x0000000000000499      0x13d ./cmsis/system_LPC11xx.o
+ .debug_abbrev  0x00000000000005d6      0x15f /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_abbrev  0x0000000000000735      0x11e /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_abbrev  0x0000000000000853       0xb9 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_loc      0x0000000000000000      0xf73
+ .debug_loc     0x0000000000000000       0xa8 ./src/stack.o
+ .debug_loc     0x00000000000000a8       0x7e ./src/stackusage_main.o
+ .debug_loc     0x0000000000000126      0x124 ./driver/debug_printf.o
+ .debug_loc     0x000000000000024a      0x140 ./config/stackusage_cr_startup_lpc11.o
+ .debug_loc     0x000000000000038a      0x188 ./cmsis/core_cm0.o
+ .debug_loc     0x0000000000000512       0x98 ./cmsis/system_LPC11xx.o
+ .debug_loc     0x00000000000005aa      0x4ad /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_loc     0x0000000000000a57      0x2de /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_loc     0x0000000000000d35      0x23e /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_aranges  0x0000000000000000      0x230
+ .debug_aranges
+                0x0000000000000000       0x30 ./src/stack.o
+ .debug_aranges
+                0x0000000000000030       0x28 ./src/stackusage_main.o
+ .debug_aranges
+                0x0000000000000058       0x40 ./driver/debug_printf.o
+ .debug_aranges
+                0x0000000000000098       0x50 ./config/stackusage_cr_startup_lpc11.o
+ .debug_aranges
+                0x00000000000000e8       0x70 ./cmsis/core_cm0.o
+ .debug_aranges
+                0x0000000000000158       0x28 ./cmsis/system_LPC11xx.o
+ .debug_aranges
+                0x0000000000000180       0x30 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_aranges
+                0x00000000000001b0       0x38 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_aranges
+                0x00000000000001e8       0x48 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_ranges   0x0000000000000000      0x1a0
+ .debug_ranges  0x0000000000000000       0x20 ./src/stack.o
+ .debug_ranges  0x0000000000000020       0x18 ./src/stackusage_main.o
+ .debug_ranges  0x0000000000000038       0x30 ./driver/debug_printf.o
+ .debug_ranges  0x0000000000000068       0x40 ./config/stackusage_cr_startup_lpc11.o
+ .debug_ranges  0x00000000000000a8       0x60 ./cmsis/core_cm0.o
+ .debug_ranges  0x0000000000000108       0x18 ./cmsis/system_LPC11xx.o
+ .debug_ranges  0x0000000000000120       0x20 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_ranges  0x0000000000000140       0x28 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_ranges  0x0000000000000168       0x38 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_line     0x0000000000000000     0x2419
+ .debug_line    0x0000000000000000       0x89 ./src/stack.o
+ .debug_line    0x0000000000000089      0x48c ./src/stackusage_main.o
+ .debug_line    0x0000000000000515      0x377 ./driver/crp.o
+ .debug_line    0x000000000000088c      0x4d7 ./driver/debug_printf.o
+ .debug_line    0x0000000000000d63      0x3f9 ./config/stackusage_cr_startup_lpc11.o
+ .debug_line    0x000000000000115c      0x3f5 ./cmsis/core_cm0.o
+ .debug_line    0x0000000000001551      0x3ea ./cmsis/system_LPC11xx.o
+ .debug_line    0x000000000000193b      0x489 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_line    0x0000000000001dc4      0x4d6 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_line    0x000000000000229a      0x17f /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_macinfo  0x0000000000000000    0x2b9c3
+ .debug_macinfo
+                0x0000000000000000     0x21fa ./src/stack.o
+ .debug_macinfo
+                0x00000000000021fa     0x610d ./src/stackusage_main.o
+ .debug_macinfo
+                0x0000000000008307     0x5e94 ./driver/crp.o
+ .debug_macinfo
+                0x000000000000e19b     0x6046 ./driver/debug_printf.o
+ .debug_macinfo
+                0x00000000000141e1     0x3e81 ./config/stackusage_cr_startup_lpc11.o
+ .debug_macinfo
+                0x0000000000018062     0x3c3b ./cmsis/core_cm0.o
+ .debug_macinfo
+                0x000000000001bc9d     0x5eed ./cmsis/system_LPC11xx.o
+ .debug_macinfo
+                0x0000000000021b8a     0x3dd1 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_macinfo
+                0x000000000002595b     0x3de0 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_macinfo
+                0x000000000002973b     0x2288 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+
+.debug_str      0x0000000000000000      0x96e
+ .debug_str     0x0000000000000000      0x133 ./src/stack.o
+                                        0x151 (size before relaxing)
+ .debug_str     0x0000000000000133       0xa2 ./src/stackusage_main.o
+                                        0x194 (size before relaxing)
+ .debug_str     0x00000000000001d5       0x22 ./driver/crp.o
+                                        0x139 (size before relaxing)
+ .debug_str     0x00000000000001f7       0xf6 ./driver/debug_printf.o
+                                        0x21a (size before relaxing)
+ .debug_str     0x00000000000002ed       0xca ./config/stackusage_cr_startup_lpc11.o
+                                        0x201 (size before relaxing)
+ .debug_str     0x00000000000003b7       0xce ./cmsis/core_cm0.o
+                                        0x1fe (size before relaxing)
+ .debug_str     0x0000000000000485      0x2f8 ./cmsis/system_LPC11xx.o
+                                        0x425 (size before relaxing)
+ .debug_str     0x000000000000077d       0xde /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+                                        0x1f0 (size before relaxing)
+ .debug_str     0x000000000000085b       0xad /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+                                        0x20d (size before relaxing)
+ .debug_str     0x0000000000000908       0x66 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+                                        0x13d (size before relaxing)
+
+.comment        0x0000000000000000       0xe0
+ .comment       0x0000000000000000       0x70 ./src/stack.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ./src/stackusage_main.o
+ .comment       0x0000000000000000       0x71 ./driver/crp.o
+ .comment       0x0000000000000000       0x71 ./driver/debug_printf.o
+ .comment       0x0000000000000000       0x71 ./config/stackusage_cr_startup_lpc11.o
+ .comment       0x0000000000000000       0x71 ./cmsis/core_cm0.o
+ .comment       0x0000000000000000       0x71 ./cmsis/system_LPC11xx.o
+ .comment       0x0000000000000000       0x71 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .comment       0x0000000000000000       0x71 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .comment       0x0000000000000000       0x71 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .comment       0x0000000000000000       0x71 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .comment       0x0000000000000000       0x71 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .comment       0x0000000000000000       0x71 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .comment       0x0000000000000070       0x70 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+                                         0x71 (size before relaxing)
+
+.ARM.attributes
+                0x0000000000000000       0x2f
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/stack.o
+ .ARM.attributes
+                0x0000000000000031       0x31 ./src/stackusage_main.o
+ .ARM.attributes
+                0x0000000000000062       0x31 ./driver/crp.o
+ .ARM.attributes
+                0x0000000000000093       0x31 ./driver/debug_printf.o
+ .ARM.attributes
+                0x00000000000000c4       0x31 ./config/stackusage_cr_startup_lpc11.o
+ .ARM.attributes
+                0x00000000000000f5       0x31 ./cmsis/core_cm0.o
+ .ARM.attributes
+                0x0000000000000126       0x31 ./cmsis/system_LPC11xx.o
+ .ARM.attributes
+                0x0000000000000157       0x31 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .ARM.attributes
+                0x0000000000000188       0x31 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .ARM.attributes
+                0x00000000000001b9       0x31 /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
+ .ARM.attributes
+                0x00000000000001ea       0x31 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x000000000000021b       0x31 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .ARM.attributes
+                0x000000000000024c       0x31 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x000000000000027d       0x21 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_semihost.a(__sys_write.o)
+ .ARM.attributes
+                0x000000000000029e       0x21 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .ARM.attributes
+                0x00000000000002bf       0x31 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(double.o)
+ .ARM.attributes
+                0x00000000000002f0       0x21 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(llong.o)
+ .ARM.attributes
+                0x0000000000000311       0x21 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x0000000000000000      0x560
+ .debug_frame   0x0000000000000000       0x70 ./src/stack.o
+ .debug_frame   0x0000000000000070       0x5c ./src/stackusage_main.o
+ .debug_frame   0x00000000000000cc       0xb0 ./driver/debug_printf.o
+ .debug_frame   0x000000000000017c       0xd8 ./config/stackusage_cr_startup_lpc11.o
+ .debug_frame   0x0000000000000254      0x130 ./cmsis/core_cm0.o
+ .debug_frame   0x0000000000000384       0x48 ./cmsis/system_LPC11xx.o
+ .debug_frame   0x00000000000003cc       0x6c /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_nofloat.o)
+ .debug_frame   0x0000000000000438       0x7c /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_printf_support.o)
+ .debug_frame   0x00000000000004b4       0xac /Users/austinglaser/src/lpcxresso/NXP_LPCXpresso1114-302_2011-02-07/lib_small_printf_m0/Lib/liblib_small_printf_m0.a(small_utils.o)
