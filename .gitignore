@@ -26,3 +26,4 @@
 
 #Mac compilation products
 *.dSYM/
+*.DS_Store
