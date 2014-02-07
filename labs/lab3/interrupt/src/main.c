@@ -37,7 +37,31 @@ void GPIOInit(void) {
 }
 
 void TIMERInit(void) {
+	/*
+	 * Timer32 0 config
+	 */
 
+	// send clock to timer32 0
+	LPC_SYSCON->SYSAHBCLKCTRL |= (0x01 << 9);
+
+	// enable timer32 0
+	LPC_TMR32B0->TCR = 0x01;
+
+	// set prescaler for tick of 1 ms
+	LPC_TMR32B0->PR = 47999;
+
+	/*
+	 * timer16 0 config
+	 */
+
+	// send clock to timer16 0
+	LPC_SYSCON->SYSAHBCLKCTRL |= (0x01 << 7);
+
+	// enable timer32 0
+	LPC_TMR16B0->TCR = 0x01;
+
+	// set prescaler for tick of 1 ms
+	LPC_TMR16B0->PR = 47999;
 }
 
 void INTERRUPTInit(void) {
@@ -64,13 +88,19 @@ void INTERRUPTInit(void) {
 	NVIC_EnableIRQ(EINT2_IRQn);
 }
 
+volatile int last_timer_value = 0;
+volatile int period = 0;
+
 void PIOINT2_IRQHandler(void) {
-	// Toggle pin
-	LPC_GPIO0 ->DATA ^= (0x01 << 7);
+	int this_timer_value = LPC_TMR32B0->TC;
+	period = this_timer_value - last_timer_value;
+	last_timer_value = this_timer_value;
 
 	// clear interrupt
 	LPC_GPIO2 ->IC = (0x01 << 1);
 }
+
+void
 
 void TIMER32_0_IRQHandler(void) {
 
@@ -84,9 +114,8 @@ int main(void) {
 	volatile int i;
 	while (1) {
 #if INT_TRIG == 1
-		for (i = 0; i < 1000000; i++);
+		for (i = 0; i < 100000; i++);
 
-		// toggle interrupt pin
 		LPC_GPIO2->DATA ^= (0x01 << 1);
 #endif
 	}
