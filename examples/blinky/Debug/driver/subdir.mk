@@ -5,10 +5,8 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../driver/adc.c \
-../driver/can.c \
 ../driver/clkconfig.c \
 ../driver/crp.c \
-../driver/debug_printf.c \
 ../driver/gpio.c \
 ../driver/i2c.c \
 ../driver/i2cslave.c \
@@ -23,10 +21,8 @@ C_SRCS += \
 
 OBJS += \
 ./driver/adc.o \
-./driver/can.o \
 ./driver/clkconfig.o \
 ./driver/crp.o \
-./driver/debug_printf.o \
 ./driver/gpio.o \
 ./driver/i2c.o \
 ./driver/i2cslave.o \
@@ -41,10 +37,8 @@ OBJS += \
 
 C_DEPS += \
 ./driver/adc.d \
-./driver/can.d \
 ./driver/clkconfig.d \
 ./driver/crp.d \
-./driver/debug_printf.d \
 ./driver/gpio.d \
 ./driver/i2c.d \
 ./driver/i2cslave.d \

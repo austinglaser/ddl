@@ -1,0 +1,293 @@
+Archive member included because of file (symbol)
+
+/Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                              ./src/cr_startup_lpc11.o (SystemInit)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc11.o (__main)
+/Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+                              /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o) (__aeabi_uidiv)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./src/cr_startup_lpc11.o
+ .data          0x0000000000000000        0x0 ./src/cr_startup_lpc11.o
+ .bss           0x0000000000000000        0x0 ./src/cr_startup_lpc11.o
+ .text          0x0000000000000000        0x0 ./src/crp.o
+ .data          0x0000000000000000        0x0 ./src/crp.o
+ .bss           0x0000000000000000        0x0 ./src/crp.o
+ .crp           0x0000000000000000        0x4 ./src/crp.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .text          0x0000000000000000        0x0 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .data          0x0000000000000000        0x0 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .bss           0x0000000000000000        0x0 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0x9c /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .rodata.CSWTCH.6
+                0x0000000000000000       0x40 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .data.SystemCoreClock
+                0x0000000000000000        0x4 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivmod
+                0x0000000000000000        0x6 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uidivmod
+                0x0000000000000000       0x72 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uldivmod
+                0x0000000000000000       0x5a /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x0000000000000000       0x32 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idiv0
+                0x0000000000000000        0x2 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x0000000000000000        0x2 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivq31+15
+                0x0000000000000000      0x188 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x0000000000000000 0x0000000000008000 xr
+RamLoc8          0x0000000010000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc11.o
+LOAD ./src/crp.o
+LOAD ./src/main.o
+LOAD /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a
+START GROUP
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x0000000000008000                __top_MFlash32 = 0x8000
+                0x0000000010002000                __top_RamLoc8 = 0x10002000
+
+.text           0x0000000000000000      0x43c
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./src/cr_startup_lpc11.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0x43c LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x10000000 ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0x0 SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ *(.text*)
+ .text.ResetISR
+                0x00000000000000d4       0x64 ./src/cr_startup_lpc11.o
+                0x00000000000000d4                ResetISR
+ .text.NMI_Handler
+                0x0000000000000138        0x8 ./src/cr_startup_lpc11.o
+                0x0000000000000138                NMI_Handler
+ .text.HardFault_Handler
+                0x0000000000000140        0x8 ./src/cr_startup_lpc11.o
+                0x0000000000000140                HardFault_Handler
+ .text.SVCall_Handler
+                0x0000000000000148        0x8 ./src/cr_startup_lpc11.o
+                0x0000000000000148                SVCall_Handler
+ .text.PendSV_Handler
+                0x0000000000000150        0x8 ./src/cr_startup_lpc11.o
+                0x0000000000000150                PendSV_Handler
+ .text.SysTick_Handler
+                0x0000000000000158        0x8 ./src/cr_startup_lpc11.o
+                0x0000000000000158                SysTick_Handler
+ .text.IntDefaultHandler
+                0x0000000000000160        0x8 ./src/cr_startup_lpc11.o
+                0x0000000000000160                PIOINT3_IRQHandler
+                0x0000000000000160                UART_IRQHandler
+                0x0000000000000160                TIMER32_1_IRQHandler
+                0x0000000000000160                IntDefaultHandler
+                0x0000000000000160                PIOINT1_IRQHandler
+                0x0000000000000160                CAN_IRQHandler
+                0x0000000000000160                SSP0_IRQHandler
+                0x0000000000000160                TIMER16_1_IRQHandler
+                0x0000000000000160                ADC_IRQHandler
+                0x0000000000000160                SSP1_IRQHandler
+                0x0000000000000160                BOD_IRQHandler
+                0x0000000000000160                WAKEUP_IRQHandler
+                0x0000000000000160                PIOINT0_IRQHandler
+                0x0000000000000160                I2C_IRQHandler
+                0x0000000000000160                WDT_IRQHandler
+                0x0000000000000160                TIMER16_0_IRQHandler
+ .text.NVIC_EnableIRQ
+                0x0000000000000168       0x2c ./src/main.o
+ .text.NVIC_SetPriority
+                0x0000000000000194       0xe0 ./src/main.o
+ .text.GPIOInit
+                0x0000000000000274       0x50 ./src/main.o
+                0x0000000000000274                GPIOInit
+ .text.TIMERInit
+                0x00000000000002c4        0x8 ./src/main.o
+                0x00000000000002c4                TIMERInit
+ .text.INTERRUPTInit
+                0x00000000000002cc       0x5c ./src/main.o
+                0x00000000000002cc                INTERRUPTInit
+ .text.PIOINT2_IRQHandler
+                0x0000000000000328       0x30 ./src/main.o
+                0x0000000000000328                PIOINT2_IRQHandler
+ .text.TIMER32_0_IRQHandler
+                0x0000000000000358        0x8 ./src/main.o
+                0x0000000000000358                TIMER32_0_IRQHandler
+ .text.main     0x0000000000000360       0x44 ./src/main.o
+                0x0000000000000360                main
+ .text.SystemInit
+                0x00000000000003a4       0x90 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                0x00000000000003a4                SystemInit
+ .text.__weak_main
+                0x0000000000000434        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x0000000000000434                __main
+                0x0000000000000434                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x000000000000043c                . = ALIGN (0x4)
+
+.glue_7         0x000000000000043c        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x000000000000043c        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x000000000000043c        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x000000000000043c        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000000000043c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000000000000043c                __exidx_end = .
+                0x000000000000043c                _etext = .
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000        0x0 load address 0x000000000000043c
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+ *(vtable)
+ *(.data*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _edata = .
+
+.bss            0x0000000010000000        0x0 load address 0x000000000000043c
+                0x0000000010000000                _bss = .
+ *(.bss*)
+ *(COMMON)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _ebss = .
+                0x0000000010000000                PROVIDE (end, .)
+
+.noinit         0x0000000010000000        0x0 load address 0x000000000000043c
+                0x0000000010000000                _noinit = .
+ *(.noinit*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_noinit = .
+                0x0000000010000000                PROVIDE (_pvHeapStart, .)
+                0x0000000010002000                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
+OUTPUT(interrupt.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000      0xc50
+ .debug_info    0x0000000000000000      0x1ec ./src/cr_startup_lpc11.o
+ .debug_info    0x00000000000001ec       0x48 ./src/crp.o
+ .debug_info    0x0000000000000234      0x538 ./src/main.o
+ .debug_info    0x000000000000076c      0x4e4 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_abbrev   0x0000000000000000      0x350
+ .debug_abbrev  0x0000000000000000       0xb4 ./src/cr_startup_lpc11.o
+ .debug_abbrev  0x00000000000000b4       0x39 ./src/crp.o
+ .debug_abbrev  0x00000000000000ed      0x177 ./src/main.o
+ .debug_abbrev  0x0000000000000264       0xec /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_loc      0x0000000000000000      0x35c
+ .debug_loc     0x0000000000000000      0x140 ./src/cr_startup_lpc11.o
+ .debug_loc     0x0000000000000140      0x184 ./src/main.o
+ .debug_loc     0x00000000000002c4       0x98 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_aranges  0x0000000000000000       0xd0
+ .debug_aranges
+                0x0000000000000000       0x50 ./src/cr_startup_lpc11.o
+ .debug_aranges
+                0x0000000000000050       0x58 ./src/main.o
+ .debug_aranges
+                0x00000000000000a8       0x28 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_ranges   0x0000000000000000       0xa0
+ .debug_ranges  0x0000000000000000       0x40 ./src/cr_startup_lpc11.o
+ .debug_ranges  0x0000000000000040       0x48 ./src/main.o
+ .debug_ranges  0x0000000000000088       0x18 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_line     0x0000000000000000      0xd41
+ .debug_line    0x0000000000000000      0x422 ./src/cr_startup_lpc11.o
+ .debug_line    0x0000000000000422       0xb3 ./src/crp.o
+ .debug_line    0x00000000000004d5      0x46f ./src/main.o
+ .debug_line    0x0000000000000944      0x3fd /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_macinfo  0x0000000000000000    0x10d52
+ .debug_macinfo
+                0x0000000000000000     0x3cae ./src/cr_startup_lpc11.o
+ .debug_macinfo
+                0x0000000000003cae     0x2309 ./src/crp.o
+ .debug_macinfo
+                0x0000000000005fb7     0x56ed ./src/main.o
+ .debug_macinfo
+                0x000000000000b6a4     0x56ae /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_str      0x0000000000000000      0x764
+ .debug_str     0x0000000000000000      0x197 ./src/cr_startup_lpc11.o
+                                        0x1cb (size before relaxing)
+ .debug_str     0x0000000000000197       0x16 ./src/crp.o
+                                         0xa7 (size before relaxing)
+ .debug_str     0x00000000000001ad      0x301 ./src/main.o
+                                        0x403 (size before relaxing)
+ .debug_str     0x00000000000004ae      0x2b6 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                                        0x3b3 (size before relaxing)
+
+.comment        0x0000000000000000       0x70
+ .comment       0x0000000000000000       0x70 ./src/cr_startup_lpc11.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ./src/crp.o
+ .comment       0x0000000000000000       0x71 ./src/main.o
+ .comment       0x0000000000000000       0x71 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .comment       0x0000000000000000       0x71 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2f
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/cr_startup_lpc11.o
+ .ARM.attributes
+                0x0000000000000031       0x31 ./src/crp.o
+ .ARM.attributes
+                0x0000000000000062       0x31 ./src/main.o
+ .ARM.attributes
+                0x0000000000000093       0x31 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .ARM.attributes
+                0x00000000000000c4       0x31 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000000000000f5       0x21 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m/libcr_eabihelpers.a(division.o)
+
+.debug_frame    0x0000000000000000      0x21c
+ .debug_frame   0x0000000000000000       0xd8 ./src/cr_startup_lpc11.o
+ .debug_frame   0x00000000000000d8      0x100 ./src/main.o
+ .debug_frame   0x00000000000001d8       0x44 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
