@@ -1,33 +1,47 @@
+/* Demonstrates counting functionality of
+ * led_count module. Very large delays
+ * are a consequence of debouncing
+ * hardware.
+ */
 module led_count_test;
   
+  //initialize device under test
   reg clock;
   wire [9:0]leds;
-  reg reset_button;
+  reg reset;
   reg button;
+  led_count dut(clock, leds, reset, button);
   
-  initial
-  begin
-    reset_button <= 1;
+  // initialize module, apply a reset signal after some time
+  initial begin
+    reset <= 1;
     button <= 1;
     clock <= 0;
-    #3000000
-    reset_button = 0;
-    #2700000
-    reset_button = 1;
-    #10000000
-    $stop;
+
+    // reset for several button presses, to demonstrate
+    // asynchronous reset hold
+    #3000000 reset = 0;
+    #2700000 reset = 1;
+    #3000000 $stop;
   end
   
-  always
-  begin
+  // toggle main clock as fast as we can
+  always begin
     forever #1 clock = ~clock;
   end
   
-  always
-  begin
-    forever #1000000 button = ~button;
+  // toggle button regularly, so debouncing
+  // code has time to work properly
+  always begin
+    forever begin
+      // bounce on transition. Total period is
+      // 2000000 ps.
+      #988000 button = ~button;
+      #3000 button = ~button;
+      #3000 button = ~button;
+      #3000 button = ~button;
+      #3000 button = ~button;
+    end
   end
   
-  led_count dut(clock, leds, reset_button, button);
-
 endmodule
