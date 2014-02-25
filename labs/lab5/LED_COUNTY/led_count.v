@@ -16,8 +16,8 @@ module led_count
 wire button_deb;
 wire reset_deb;
 
-debounce button_noise(clock, button, button_deb);
-debounce reset_deb_noise(clock, reset, reset_deb);
+debounce #(8) button_deb(clock, button, button_deb);
+debounce #(8) reset_deb(clock, reset, reset_deb);
 
 // intermediate register for counter value (to be assinged
 // during 'always' block)

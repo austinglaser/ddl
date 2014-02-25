@@ -1,6 +1,7 @@
-// debounce module, looking for a consistent signal over
-// 'nshifts' ms (default 8). Assumes input is 50 MHz clock
-// signal, which is divided down to 1 kHz ticks
+/* debounce module, looking for a consistent signal over
+ * 'nshifts' ms (default 8). Assumes input is 50 MHz clock
+ * signal, which is divided down to 1 kHz ticks
+ */
 module debounce 
                (input clock,
                 input raw, 
@@ -8,27 +9,22 @@ module debounce
                );
 #parameter nshifts=8;
 
-reg [31:0] i;
+// shift register to look for conistent value
 reg [nshifts-1:0] shift;
 
-initial i = 0;
+// divided clock, ticking at 1 kHz
+reg clock_1k;
+divider #(50000) div_50M_to_1k(clock, clock_1k);
 
+// shifting logic, checking for consistent value over 'nshifts' ms.
 reg debounced_hold;
-reg clock_div;
-
-always@(posedge clock_div) begin
+always@(posedge clock_1k) begin
   shift = {shift[nshifts-2:0],raw};
   if(shift == {(nshifts) {1'b1}}) debounced_hold <= 1;
   if(shift == {(nshifts) {1'b0}}) debounced_hold <= 0;
 end
 
-always@(posedge clock) begin
-  if (i >= 25000) begin
-    clock_div <= ~clock_div;
-    i <= 0;
-  end else i = i + 1;
-end
-
+// pipe to output
 assign debounced = debounced_hold;
 
-endmodule
+endmodule //debounce
