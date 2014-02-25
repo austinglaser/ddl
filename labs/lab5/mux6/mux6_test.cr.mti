@@ -1,0 +1,22 @@
+Z:/working/mux6/mux6.v {1 {vlog -work work -nocovercells Z:/working/mux6/mux6.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mux6
+
+Top level modules:
+	mux6
+
+} {} {}} Z:/working/mux6/mux2.v {1 {vlog -work work -nocovercells Z:/working/mux6/mux2.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} Z:/working/mux6test.v {1 {vlog -work work -nocovercells Z:/working/mux6test.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

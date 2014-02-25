@@ -1,0 +1,48 @@
+|mux6
+d0[0] => d0[0].IN1
+d1[0] => d1[0].IN1
+d2[0] => d2[0].IN1
+d3[0] => d3[0].IN1
+d4[0] => d4[0].IN1
+d5[0] => d5[0].IN1
+s[0] => s[0].IN3
+s[1] => s[1].IN1
+s[2] => s[2].IN1
+y[0] <= mux2:mux2_012345.port3
+
+
+|mux6|mux2:mux2_01
+d0[0] => y.DATAA
+d1[0] => y.DATAB
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux6|mux2:mux2_23
+d0[0] => y.DATAA
+d1[0] => y.DATAB
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux6|mux2:mux2_45
+d0[0] => y.DATAA
+d1[0] => y.DATAB
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux6|mux2:mux2_0123
+d0[0] => y.DATAA
+d1[0] => y.DATAB
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux6|mux2:mux2_012345
+d0[0] => y.DATAA
+d1[0] => y.DATAB
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

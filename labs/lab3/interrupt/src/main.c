@@ -21,7 +21,7 @@
 // MAKE SURE that the p2.1 isn't driven
 // if you decide to use the internal
 // trigger
-#define INT_TRIG 1
+#define INT_TRIG 0
 
 #define TICK_1MS_PSC	  47999 			   //1 ms tick on timers
 #define SWITCH_LENGTH	  10				   //10 s to switch between duty cycles
@@ -110,20 +110,26 @@ void INTERRUPTInit(void) {
 volatile unsigned last_timer_value = 0;
 volatile unsigned period = 0;
 volatile unsigned pulse_width = 3;
+volatile unsigned second = 0;
 
 void PIOINT2_IRQHandler(void) {
-	// turn on LED
-	LPC_GPIO0->DATA |= (0x01 << 7);
+	if (second) {
+		second = 0;
 
-	// read timer value, calculate period
-	unsigned this_timer_value = LPC_TMR32B0->TC;
-	period = this_timer_value - last_timer_value;
-	last_timer_value = this_timer_value;
+		// turn on LED
+		LPC_GPIO0->DATA |= (0x01 << 7);
 
-	// figure out when to turn the LED back off; set up match interrupt
-	unsigned pwm_length = (period*pulse_width)/4;
-	LPC_TMR32B0->MR0 = this_timer_value + pwm_length;
-	LPC_TMR32B0->MCR |= (0x01 << 0);
+		// read timer value, calculate period
+		unsigned this_timer_value = LPC_TMR32B0->TC;
+		period = this_timer_value - last_timer_value;
+		last_timer_value = this_timer_value;
+
+		// figure out when to turn the LED back off; set up match interrupt
+		unsigned pwm_length = (period*pulse_width)/4;
+		LPC_TMR32B0->MR0 = this_timer_value + pwm_length;
+		LPC_TMR32B0->MCR |= (0x01 << 0);
+	}
+	else second = 1;
 
 	// clear interrupt
 	LPC_GPIO2 ->IC = (0x01 << 1);
