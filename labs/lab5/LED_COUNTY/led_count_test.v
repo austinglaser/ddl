@@ -10,7 +10,8 @@ module led_count_test;
   wire [9:0]leds;
   reg reset;
   reg button;
-  led_count dut(clock, leds, reset, button);
+
+  led_count #(10) dut(clock, leds, reset, button);
   
   // initialize module, apply a reset signal after some time
   initial begin
