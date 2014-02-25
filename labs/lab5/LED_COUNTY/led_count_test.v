@@ -26,22 +26,18 @@ module led_count_test;
   end
   
   // toggle main clock as fast as we can
-  always begin
-    forever #1 clock = ~clock;
-  end
+  always forever #1 clock = ~clock;
   
   // toggle button regularly, so debouncing
   // code has time to work properly
-  always begin
-    forever begin
-      // bounce on transition. Total period is
-      // 2000000 ps.
-      #988000 button = ~button;
-      #3000 button = ~button;
-      #3000 button = ~button;
-      #3000 button = ~button;
-      #3000 button = ~button;
-    end
+  always forever begin
+    // bounce on transition. Total period is
+    // 2000000 ps.
+    #920000 button = ~button;
+    #20000  button = ~button;
+    #20000  button = ~button;
+    #20000  button = ~button;
+    #20000  button = ~button;
   end
   
 endmodule
