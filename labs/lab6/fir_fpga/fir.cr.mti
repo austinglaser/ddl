@@ -1,0 +1,36 @@
+Z:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module fir_test
+
+Top level modules:
+	fir_test
+
+} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/fir.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/fir.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module fir
+
+Top level modules:
+	fir
+
+} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/shift.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/shift.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module shift
+
+Top level modules:
+	shift
+
+} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module shift_reg
+
+Top level modules:
+	shift_reg
+
+} {} {}}
