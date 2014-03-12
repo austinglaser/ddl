@@ -1,0 +1,8 @@
+#ifndef _DRIVER_CONFIG_H_
+#define _DRIVER_CONFIG_H_
+
+//#define CONFIG_ENABLE_DRIVER_SSP 1
+
+#define CONFIG_ENABLE_DRIVER_GPIO 1
+
+#endif
