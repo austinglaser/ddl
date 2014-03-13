@@ -1,6 +1,6 @@
 module fir_test;
   parameter width = 10;
-  parameter length = 465;
+  parameter length = 20;
   parameter n_coeffs = 465;
   parameter ones = 1;
   
@@ -18,7 +18,7 @@ module fir_test;
   end
   
   initial begin
-    #200 $stop;
+    #500 $stop;
   end
   
 endmodule
