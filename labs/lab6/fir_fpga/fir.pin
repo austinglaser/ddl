@@ -100,7 +100,7 @@ data_in[1]                   : AA7       : input  : 2.5 V             :         
 data_out[6]                  : AA8       : output : 2.5 V             :         : 3         : Y              
 data_in[2]                   : AA9       : input  : 2.5 V             :         : 3         : Y              
 data_out[8]                  : AA10      : output : 2.5 V             :         : 3         : Y              
-GND+                         : AA11      :        :                   :         : 3         :                
+reset                        : AA11      : input  : 2.5 V             :         : 3         : N              
 GND+                         : AA12      :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA13      :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA14      :        :                   :         : 4         :                

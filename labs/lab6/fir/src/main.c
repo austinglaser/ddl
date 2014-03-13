@@ -40,12 +40,12 @@ int main(void)
 
 	FPGA_Reset();
 
-	unsigned data_back;
+	volatile unsigned data_back;
 	unsigned data = 0x000003FFF;
 	unsigned i;
 	while (1) {
 		for (i = 0; i < 10; i++) {
-			data_back = SPI_Send_Frame(0x00000155);
+			data_back = SPI_Send_Frame(data & ~(0x01 << i));
 		}
 	}
 

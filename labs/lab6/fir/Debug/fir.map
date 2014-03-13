@@ -69,7 +69,7 @@ END GROUP
                 0x0000000000008000                __top_MFlash32 = 0x8000
                 0x0000000010002000                __top_RamLoc8 = 0x10002000
 
-.text           0x0000000000000000      0x4d8
+.text           0x0000000000000000      0x4e0
  FILL mask 0xff
                 0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -78,7 +78,7 @@ END GROUP
                 0x00000000000000c0                . = ALIGN (0x4)
                 0x00000000000000c0                __section_table_start = .
                 0x00000000000000c0                __data_section_table = .
-                0x00000000000000c0        0x4 LONG 0x4d8 LOADADDR (.data)
+                0x00000000000000c0        0x4 LONG 0x4e0 LOADADDR (.data)
                 0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
                 0x00000000000000c8        0x4 LONG 0x0 SIZEOF (.data)
                 0x00000000000000cc                __data_section_table_end = .
@@ -117,56 +117,56 @@ END GROUP
                 0x0000000000000150                CAN_IRQHandler
                 0x0000000000000150                SSP0_IRQHandler
  *(.text*)
- .text.main     0x0000000000000154       0x48 ./src/main.o
+ .text.main     0x0000000000000154       0x50 ./src/main.o
                 0x0000000000000154                main
  .text.SPI_Send_Frame
-                0x000000000000019c       0x40 ./src/main.o
-                0x000000000000019c                SPI_Send_Frame
+                0x00000000000001a4       0x40 ./src/main.o
+                0x00000000000001a4                SPI_Send_Frame
  .text.FPGA_Reset
-                0x00000000000001dc       0x54 ./src/main.o
-                0x00000000000001dc                FPGA_Reset
+                0x00000000000001e4       0x54 ./src/main.o
+                0x00000000000001e4                FPGA_Reset
  .text.CLK_Setup
-                0x0000000000000230       0xd0 ./src/main.o
-                0x0000000000000230                CLK_Setup
+                0x0000000000000238       0xd0 ./src/main.o
+                0x0000000000000238                CLK_Setup
  .text.TIMER_Setup
-                0x0000000000000300       0x34 ./src/main.o
-                0x0000000000000300                TIMER_Setup
+                0x0000000000000308       0x34 ./src/main.o
+                0x0000000000000308                TIMER_Setup
  .text.SPI_Setup
-                0x0000000000000334       0xd8 ./src/main.o
-                0x0000000000000334                SPI_Setup
+                0x000000000000033c       0xd8 ./src/main.o
+                0x000000000000033c                SPI_Setup
  .text.GPIO_Setup
-                0x000000000000040c       0x34 ./src/main.o
-                0x000000000000040c                GPIO_Setup
+                0x0000000000000414       0x34 ./src/main.o
+                0x0000000000000414                GPIO_Setup
  .text.SystemInit
-                0x0000000000000440       0x90 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
-                0x0000000000000440                SystemInit
+                0x0000000000000448       0x90 /Users/austinglaser/src/ecen3000/CMSISv2p00_LPC11xx/Debug/libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                0x0000000000000448                SystemInit
  .text.__weak_main
-                0x00000000000004d0        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
-                0x00000000000004d0                __main
-                0x00000000000004d0                __weak_main
+                0x00000000000004d8        0x8 /Applications/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x00000000000004d8                __main
+                0x00000000000004d8                __weak_main
  *(.rodata .rodata.* .constdata .constdata.*)
-                0x00000000000004d8                . = ALIGN (0x4)
+                0x00000000000004e0                . = ALIGN (0x4)
 
-.glue_7         0x00000000000004d8        0x0
+.glue_7         0x00000000000004e0        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x00000000000004d8        0x0
+.glue_7t        0x00000000000004e0        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x00000000000004d8        0x0
+.vfp11_veneer   0x00000000000004e0        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x00000000000004d8        0x0
+.v4_bx          0x00000000000004e0        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000000004d8                __exidx_start = .
+                0x00000000000004e0                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000000004d8                __exidx_end = .
-                0x00000000000004d8                _etext = .
+                0x00000000000004e0                __exidx_end = .
+                0x00000000000004e0                _etext = .
 
 .uninit_RESERVED
                 0x0000000010000000        0x0
@@ -174,7 +174,7 @@ END GROUP
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _end_uninit_RESERVED = .
 
-.data           0x0000000010000000        0x0 load address 0x00000000000004d8
+.data           0x0000000010000000        0x0 load address 0x00000000000004e0
  FILL mask 0xff
                 0x0000000010000000                _data = .
  *(vtable)
@@ -182,7 +182,7 @@ END GROUP
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _edata = .
 
-.bss            0x0000000010000000        0x0 load address 0x00000000000004d8
+.bss            0x0000000010000000        0x0 load address 0x00000000000004e0
                 0x0000000010000000                _bss = .
  *(.bss*)
  *(COMMON)
@@ -190,7 +190,7 @@ END GROUP
                 0x0000000010000000                _ebss = .
                 0x0000000010000000                PROVIDE (end, .)
 
-.noinit         0x0000000010000000        0x0 load address 0x00000000000004d8
+.noinit         0x0000000010000000        0x0 load address 0x00000000000004e0
                 0x0000000010000000                _noinit = .
  *(.noinit*)
                 0x0000000010000000                . = ALIGN (0x4)
