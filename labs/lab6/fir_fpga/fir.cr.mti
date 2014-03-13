@@ -1,36 +1,22 @@
-Z:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module fir_test
+Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/coeff_calc.v {1 {vlog -work work -sv {Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\coeff_calc.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module coeff_calc
 
 Top level modules:
-	fir_test
+	coeff_calc
 
-} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+} {} {}} Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v {1 {vlog -work work -sv Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module multiplex
+
+Top level modules:
+	multiplex
+
+} {} {}} Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiply.v {1 {vlog -work work -sv Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiply.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module multiply
 
 Top level modules:
 	multiply
-
-} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/fir.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/fir.v
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module fir
-
-Top level modules:
-	fir
-
-} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/shift.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/shift.v
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module shift
-
-Top level modules:
-	shift
-
-} {} {}} Z:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v {1 {vlog -work work -sv -nocovercells Z:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module shift_reg
-
-Top level modules:
-	shift_reg
 
 } {} {}}
