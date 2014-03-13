@@ -4,7 +4,7 @@
  * (c) NXP Semiconductors 2013-2014
  * Generated linker script file for LPC1114/301
  * Created from generic_c.ld (LPCXpresso v6.1 (2 [Build 177] [2013-11-28] ))
- * By LPCXpresso v6.1.2 [Build 177] [2013-11-28]  on Tue Mar 11 15:01:20 MDT 2014
+ * By LPCXpresso v6.1.2 [Build 177] [2013-11-28]  on Wed Mar 12 23:23:11 MDT 2014
  */
 
 

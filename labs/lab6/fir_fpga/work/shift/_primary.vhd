@@ -6,6 +6,7 @@ entity shift is
     );
     port(
         clock           : in     vl_logic;
+        reset           : in     vl_logic;
         data_in         : in     vl_logic_vector;
         data_out        : out    vl_logic_vector
     );

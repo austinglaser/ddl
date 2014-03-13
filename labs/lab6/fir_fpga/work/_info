@@ -3,113 +3,157 @@ K3
 13
 cModel Technology
 Z0 d\\eces172.colorado.edu\glaserac\win7folders\Desktop
-vfir
-Z1 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
-Z2 !s100 89g<oA2bzgY1VT[SXDo5@1
-Z3 I6nFV2:=Y83>f>efZ7LW`R3
-Z4 VLbiQZKF^cmbEGgen6GA]b3
-Z5 !s105 fir_v_unit
+vcoeff_calc
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 KCQ<VT=[ERCzYM=Y2gD^L1
+Z3 I;DY0j9Y6Hbn2P>ZLXbBRj2
+Z4 VCmjmLaQSTWnhIIJbn`4Lh1
+Z5 !s105 coeff_calc_v_unit
 S1
-Z6 dZ:\win7folders\Desktop\ddl-master\labs\lab6
-Z7 w1394584842
-Z8 8Z:/win7folders/Desktop/ddl-master/labs/lab6/fir.v
-Z9 FZ:/win7folders/Desktop/ddl-master/labs/lab6/fir.v
+Z6 dZ:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga
+Z7 w1394664505
+Z8 8Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\coeff_calc.v
+Z9 FZ:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\coeff_calc.v
 L0 1
-Z10 OV;L;10.0d;49
+Z10 OV;L;10.1d;51
 r1
 31
-Z11 !s90 -reportprogress|300|-work|work|-sv|-nocovercells|Z:/win7folders/Desktop/ddl-master/labs/lab6/fir.v|
-Z12 !s102 -nocovercells
-Z13 o-work work -sv -nocovercells -O0
-Z14 !s108 1394586504.656000
-Z15 !s107 Z:/win7folders/Desktop/ddl-master/labs/lab6/fir.v|
+Z11 !s90 -reportprogress|300|-work|work|-sv|Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\coeff_calc.v|
+Z12 o-work work -sv -O0
+Z13 !s108 1394692123.690000
+Z14 !s107 Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\coeff_calc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfir
+R1
+Z15 IWl3WA9Ob;<5HO:[ULHh0`1
+Z16 V:=BDK<6H7Hb^M1N<JHb`P3
+Z17 !s105 fir_v_unit
+S1
+R6
+Z18 w1394691896
+Z19 8Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir.v
+Z20 FZ:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir.v
+L0 1
+R10
+r1
+31
+Z21 !s90 -reportprogress|300|-work|work|-sv|Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir.v|
+R12
+Z22 !s100 =Ah3b3TP;A4mA0dIgI@750
+Z23 !s108 1394692124.517000
+Z24 !s107 Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir.v|
+!i10b 1
 !s85 0
 !s101 -O0
 vfir_test
 R1
-!s100 [S>K<f1B4z;8JVfmQZgmR1
-II;S>3Pim7d0EQ[TeLbLRX0
-Z16 VjeT^>29]RBia65281AVUl0
-Z17 !s105 fir_test_v_unit
+Z25 I79E>l?VbloP9Qn8l>_WoX0
+Z26 Ve<L4V8N[HKo19F<8g>FgE2
+Z27 !s105 fir_test_v_unit
 S1
 R6
-w1394586497
-Z18 8Z:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v
-Z19 FZ:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v
+Z28 w1394691736
+Z29 8Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir_test.v
+Z30 FZ:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir_test.v
 L0 1
 R10
 r1
-!s85 0
 31
-!s108 1394586506.980000
-!s107 Z:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v|
-Z20 !s90 -reportprogress|300|-work|work|-sv|-nocovercells|Z:/win7folders/Desktop/ddl-master/labs/lab6/fir_test.v|
-!s101 -O0
+Z31 !s90 -reportprogress|300|-work|work|-sv|Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir_test.v|
 R12
-R13
+Z32 !s100 k=4U6d`DM7O[QGbiHY9g_1
+Z33 !s108 1394692124.860000
+Z34 !s107 Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\fir_test.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplex
+R1
+Z35 !s100 Of`_C1aBWUPndFQA8MQ^M1
+Z36 Id0n2Pm:4AGoDRC2oYWD1I2
+Z37 Vc:zjVkIc3fAdH;egWJ_?J0
+Z38 !s105 multiplex_v_unit
+S1
+R6
+Z39 w1394682853
+Z40 8Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v
+Z41 FZ:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v
+L0 1
+R10
+r1
+31
+Z42 !s90 -reportprogress|300|-work|work|-sv|Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v|
+R12
+Z43 !s108 1394692125.219000
+Z44 !s107 Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v|
+!i10b 1
+!s85 0
+!s101 -O0
 vmultiply
 R1
-Z21 !s100 ET10H]4k8PFoEVP`fGY>[3
-Z22 IaAEf1mEa6zV[G74A7UK8Z2
-Z23 VZPBBC]X<:9>km3?EZ;g[Z0
-Z24 !s105 multiply_v_unit
+Z45 !s100 zUU1hUK=PeTjEOfGa9QTP0
+Z46 I[HL9ZJR0F5mek?;7MK8o=0
+Z47 VZPBBC]X<:9>km3?EZ;g[Z0
+Z48 !s105 multiply_v_unit
 S1
 R6
-Z25 w1394582958
-Z26 8Z:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v
-Z27 FZ:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v
+Z49 w1394664450
+Z50 8Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiply.v
+Z51 FZ:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiply.v
 L0 1
 R10
 r1
 31
-Z28 !s90 -reportprogress|300|-work|work|-sv|-nocovercells|Z:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v|
+Z52 !s90 -reportprogress|300|-work|work|-sv|Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiply.v|
 R12
-R13
-Z29 !s108 1394586505.299000
-Z30 !s107 Z:/win7folders/Desktop/ddl-master/labs/lab6/multiply.v|
+Z53 !s108 1394692125.796000
+Z54 !s107 Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiply.v|
+!i10b 1
 !s85 0
 !s101 -O0
 vshift
 R1
-Z31 !s100 ?hk?l8KDfZ]:l4QEd]lgB0
-Z32 IJYgE6en:VeOWUczjelO:60
-Z33 V2jj8_;c6iK]f=QPfa0]9^2
-Z34 !s105 shift_v_unit
+Z55 IU@9@C8ejM5B:CS4kG6AHC2
+Z56 VmMWPFi=o@F;hl9aBOd=ff2
+Z57 !s105 shift_v_unit
 S1
 R6
-Z35 w1394582964
-Z36 8Z:/win7folders/Desktop/ddl-master/labs/lab6/shift.v
-Z37 FZ:/win7folders/Desktop/ddl-master/labs/lab6/shift.v
+Z58 w1394691596
+Z59 8Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift.v
+Z60 FZ:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift.v
 L0 1
 R10
 r1
 31
-Z38 !s90 -reportprogress|300|-work|work|-sv|-nocovercells|Z:/win7folders/Desktop/ddl-master/labs/lab6/shift.v|
+Z61 !s90 -reportprogress|300|-work|work|-sv|Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift.v|
 R12
-R13
-Z39 !s108 1394586505.839000
-Z40 !s107 Z:/win7folders/Desktop/ddl-master/labs/lab6/shift.v|
+!i10b 1
+Z62 !s100 M@fEcKnAkVX=Vk2g6VYaj3
 !s85 0
+Z63 !s108 1394692126.124000
+Z64 !s107 Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift.v|
 !s101 -O0
 vshift_reg
 R1
-Z41 !s100 a`dlag871;>T<hh7z5gPk1
-Z42 I6MbbL>h1EH>_PT67Km@zQ2
-Z43 VYY0KMYJE92cId5>gM4YTc2
-Z44 !s105 shift_reg_v_unit
+!i10b 1
+!s100 6ZA5g]l[ME96LD>n]:fz61
+ITR`SEkn^0f<hUS1dChk241
+VDAeY3DX6EE6F5F[:L852Z0
+Z65 !s105 shift_reg_v_unit
 S1
 R6
-Z45 w1394582970
-Z46 8Z:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v
-Z47 FZ:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v
+w1394691503
+Z66 8Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift_reg.v
+Z67 FZ:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift_reg.v
 L0 1
 R10
 r1
-31
-Z48 !s90 -reportprogress|300|-work|work|-sv|-nocovercells|Z:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v|
-R12
-R13
 !s85 0
-Z49 !s108 1394586506.410000
-Z50 !s107 Z:/win7folders/Desktop/ddl-master/labs/lab6/shift_reg.v|
+31
+!s108 1394692126.670000
+!s107 Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift_reg.v|
+Z68 !s90 -reportprogress|300|-work|work|-sv|Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/shift_reg.v|
 !s101 -O0
+R12
