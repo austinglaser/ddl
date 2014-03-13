@@ -8,13 +8,14 @@ module fir(
 	parameter length = 200;
 	parameter n_coeffs = 465;
 	parameter ones = 0;
+  parameter N = 5;
 	
 	// define arguments
 	input clock;
 	input  [width-1:0] data_in;
 	output [width-1:0] data_out;
 	
-	// two-dimensional coefficient registers (initialized in 'initial' block)
+	// two-dimensional coefficient registers (initialized in generate block)
 	reg [16:0] coeff [n_coeffs-1:0];
 	
 	// internal signals
@@ -33,12 +34,13 @@ module fir(
   // generate the entire filter
 	genvar i;
 	generate
-		for (i = 0; i < length; i = i+1) begin:fir_gen
+		for (i = 0; i < length; i = i+1) begin:coeff_gen
       // calculate appropriate coefficient (note reversed order in parameter)
       coeff_calc #((n_coeffs-1) - i, ones) ARRAY_CELL(coeff[i]);
+    end
 
+    for (i = 0; i < length/N; i = i + 1) begin:fir_gen
       // hook up multiplier
-			//multiply #(width, 17) MULT(clock, data_values[i], coeff[i], mult_values[i]);
       assign mult_values[i] = coeff[i] * data_values[i];
 			
       // create adder. Not necessary for first value
