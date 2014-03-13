@@ -1,11 +1,4 @@
-Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/coeff_calc.v {1 {vlog -work work -sv {Z:\Users\austinglaser\src\ecen3000\labs\lab6\fir_fpga\coeff_calc.v}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module coeff_calc
-
-Top level modules:
-	coeff_calc
-
-} {} {}} Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v {1 {vlog -work work -sv Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v
+Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v {1 {vlog -work work -sv Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/multiplex.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module multiplex
 
