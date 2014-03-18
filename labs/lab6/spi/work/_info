@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+vspi
+Z1 IzZYUndfB2[8GjG477EfXh1
+Z2 VkLOO@1OLZTA3:cXeDl91V2
+Z3 dZ:\Users\austinglaser\src\ecen3000\labs\lab6\spi
+Z4 w1394754550
+Z5 8Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi.v
+Z6 FZ:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi.v|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 J3=Jd;>d;fM:D=1KIh<G13
+!s85 0
+Z11 !s108 1394754607.886000
+Z12 !s107 Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi.v|
+!s101 -O0
+vspi_test
+Z13 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+Z14 !s100 DfNM@T[Z8T?A585o3HHHz3
+Z15 I:Yd0`f25?BDLo=Ej5h3i31
+Z16 VhRW<9K]gi5fc`?:[=Z7Mh0
+Z17 !s105 spi_test_v_unit
+S1
+R3
+Z18 w1394753403
+Z19 8Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi_test.v
+Z20 FZ:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi_test.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1394754608.089000
+!s107 Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi_test.v|
+Z21 !s90 -reportprogress|300|-work|work|-sv|Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi_test.v|
+!s101 -O0
+Z22 o-work work -sv -O0

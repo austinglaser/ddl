@@ -3,64 +3,64 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clock'
-Slack : -58.827
-TNS   : -1368.370
+Slack : -59.082
+TNS   : -1392.540
 
 Type  : Slow 1200mV 85C Model Setup 'shift_clock'
-Slack : -1.289
-TNS   : -453.892
+Slack : -1.226
+TNS   : -443.543
 
 Type  : Slow 1200mV 85C Model Hold 'clock'
-Slack : -0.013
-TNS   : -0.013
+Slack : -0.138
+TNS   : -0.138
 
 Type  : Slow 1200mV 85C Model Hold 'shift_clock'
-Slack : 0.360
+Slack : 0.357
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
 Slack : -3.000
-TNS   : -42.000
+TNS   : -47.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'shift_clock'
 Slack : -1.000
-TNS   : -4650.000
+TNS   : -4651.000
 
 Type  : Slow 1200mV 0C Model Setup 'clock'
-Slack : -52.689
-TNS   : -1224.784
+Slack : -52.814
+TNS   : -1243.987
 
 Type  : Slow 1200mV 0C Model Setup 'shift_clock'
-Slack : -1.037
-TNS   : -242.288
+Slack : -0.994
+TNS   : -232.790
 
 Type  : Slow 1200mV 0C Model Hold 'clock'
-Slack : 0.005
-TNS   : 0.000
+Slack : -0.128
+TNS   : -0.128
 
 Type  : Slow 1200mV 0C Model Hold 'shift_clock'
-Slack : 0.326
+Slack : 0.325
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
 Slack : -3.000
-TNS   : -42.000
+TNS   : -47.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'shift_clock'
 Slack : -1.000
-TNS   : -4650.000
+TNS   : -4651.000
 
 Type  : Fast 1200mV 0C Model Setup 'clock'
-Slack : -32.444
-TNS   : -757.528
+Slack : -32.419
+TNS   : -765.154
 
 Type  : Fast 1200mV 0C Model Setup 'shift_clock'
-Slack : -0.371
-TNS   : -10.244
+Slack : -0.324
+TNS   : -5.691
 
 Type  : Fast 1200mV 0C Model Hold 'clock'
-Slack : -0.076
-TNS   : -0.076
+Slack : -0.185
+TNS   : -0.185
 
 Type  : Fast 1200mV 0C Model Hold 'shift_clock'
 Slack : 0.185
@@ -68,10 +68,10 @@ TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
 Slack : -3.000
-TNS   : -44.512
+TNS   : -49.726
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'shift_clock'
 Slack : -1.000
-TNS   : -4650.000
+TNS   : -4651.000
 
 ------------------------------------------------------------

@@ -1,8 +1,10 @@
 module fir(
   clock,
   reset,
+  calculate,
   data_in,
-  data_out
+  data_out,
+  data_good
 );
   //parameters
 	parameter width =  10;
@@ -14,11 +16,14 @@ module fir(
 	// define arguments
 	input clock;
   input reset;
+  input calculate;
 	input      [width-1:0] data_in;
 	output reg [width-1:0] data_out;
+  output     data_good;
 
   reg shift_clock;
-  reg [2:0] cycle;
+  reg run;
+  reg [7:0] cycle;
 	
 	// two-dimensional coefficient registers (initialized in generate block)
 	reg [16:0] coeff [n_coeffs-1:0];
@@ -30,12 +35,16 @@ module fir(
 	wire [(width + 17)-1:0]	mult_value  [(length/n)-1:0];
 	wire [(width + 17)-1:0]	sum_value   [(length/n)-1:0];
 
-  reg [(width + 17)-1:0] accumulator;
-	
-  // define shift register of correct length. Note that this introduces
-  // one extra cycle of delay at entry
-	shift_reg #(width, length) data_shift(shift_clock, reset, data_in, data_value);
+  assign data_good = ~run;
 
+  reg [(width + 17)-1:0] accumulator;
+
+  always @(negedge reset or posedge calculate or posedge shift_clock) begin
+    if (!reset)         run <= 0;
+    else if (calculate) run <= 1;
+    else                run <= 0;
+  end
+	
   always @(posedge clock or negedge reset) begin
     if (reset == 0) begin
       cycle <= 0;
@@ -49,12 +58,17 @@ module fir(
       shift_clock <= 1;
       accumulator <= 0;
     end
-    else begin
-      if (cycle == 0) shift_clock <= 0;
-      accumulator <= accumulator + sum_value[(length/n)-1];
+    else if (run) begin
+      if (cycle == 0)    shift_clock = 0;
       cycle <= cycle + 1;
+
+      accumulator <= accumulator + sum_value[(length/n)-1];
     end
   end
+
+  // define shift register of correct length. Note that this introduces
+  // one extra cycle of delay at entry
+	shift_reg #(width, length) data_shift(shift_clock, reset, data_in, data_value);
 
   // generate the entire filter
 	genvar i;

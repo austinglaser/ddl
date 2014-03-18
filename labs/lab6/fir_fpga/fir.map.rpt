@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fir
-Thu Mar 13 02:07:11 2014
+Fri Mar 14 14:35:36 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -1304,6 +1304,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 1296. lpm_mult Parameter Settings by Entity Instance
 1297. Elapsed Time Per Partition
 1298. Analysis & Synthesis Messages
+1299. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -1329,16 +1330,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 13 02:07:11 2014      ;
+; Analysis & Synthesis Status        ; Successful - Fri Mar 14 14:35:35 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; fir                                        ;
 ; Top-level Entity Name              ; fir                                        ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 13,646                                     ;
-;     Total combinational functions  ; 8,986                                      ;
-;     Dedicated logic registers      ; 4,689                                      ;
-; Total registers                    ; 4689                                       ;
-; Total pins                         ; 22                                         ;
+; Total logic elements               ; 13,657                                     ;
+;     Total combinational functions  ; 8,997                                      ;
+;     Dedicated logic registers      ; 4,695                                      ;
+; Total registers                    ; 4695                                       ;
+; Total pins                         ; 24                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 112                                        ;
@@ -1502,27 +1503,27 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 13,646      ;
+; Estimated Total logic elements              ; 13,657      ;
 ;                                             ;             ;
-; Total combinational functions               ; 8986        ;
+; Total combinational functions               ; 8997        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 4310        ;
-;     -- 3 input functions                    ; 3880        ;
-;     -- <=2 input functions                  ; 796         ;
+;     -- 4 input functions                    ; 4305        ;
+;     -- 3 input functions                    ; 3890        ;
+;     -- <=2 input functions                  ; 802         ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 5033        ;
-;     -- arithmetic mode                      ; 3953        ;
+;     -- normal mode                          ; 5037        ;
+;     -- arithmetic mode                      ; 3960        ;
 ;                                             ;             ;
-; Total registers                             ; 4689        ;
-;     -- Dedicated logic registers            ; 4689        ;
+; Total registers                             ; 4695        ;
+;     -- Dedicated logic registers            ; 4695        ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 22          ;
+; I/O pins                                    ; 24          ;
 ; Embedded Multiplier 9-bit elements          ; 112         ;
 ; Maximum fan-out node                        ; reset~input ;
-; Maximum fan-out                             ; 4680        ;
-; Total fan-out                               ; 45210       ;
+; Maximum fan-out                             ; 4688        ;
+; Total fan-out                               ; 45285       ;
 ; Average fan-out                             ; 3.27        ;
 +---------------------------------------------+-------------+
 
@@ -1532,7 +1533,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                 ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                             ; Library Name ;
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------+--------------+
-; |fir                                       ; 8986 (2329)       ; 4689 (39)    ; 0           ; 112          ; 0       ; 56        ; 22   ; 0            ; |fir                                                                                                            ; work         ;
+; |fir                                       ; 8997 (2342)       ; 4695 (45)    ; 0           ; 112          ; 0       ; 56        ; 24   ; 0            ; |fir                                                                                                            ; work         ;
 ;    |lpm_mult:Mult0|                        ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult0                                                                                             ; work         ;
 ;       |mult_sbt:auto_generated|            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult0|mult_sbt:auto_generated                                                                     ; work         ;
 ;    |lpm_mult:Mult10|                       ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult10                                                                                            ; work         ;
@@ -1594,11 +1595,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                |mult_vnl:mult1|            ; 116 (116)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult26|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated|mult_vnl:mult1 ; work         ;
 ;    |lpm_mult:Mult27|                       ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult27                                                                                            ; work         ;
 ;       |mult_sbt:auto_generated|            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult27|mult_sbt:auto_generated                                                                    ; work         ;
-;    |lpm_mult:Mult28|                       ; 125 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28                                                                                            ; work         ;
-;       |mult_dat:auto_generated|            ; 125 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated                                                                    ; work         ;
-;          |alt_mac_mult:mac_mult1|          ; 125 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated|alt_mac_mult:mac_mult1                                             ; work         ;
-;             |mac_mult_7sg1:auto_generated| ; 125 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated                ; work         ;
-;                |mult_vnl:mult1|            ; 125 (125)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated|mult_vnl:mult1 ; work         ;
+;    |lpm_mult:Mult28|                       ; 126 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28                                                                                            ; work         ;
+;       |mult_dat:auto_generated|            ; 126 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated                                                                    ; work         ;
+;          |alt_mac_mult:mac_mult1|          ; 126 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated|alt_mac_mult:mac_mult1                                             ; work         ;
+;             |mac_mult_7sg1:auto_generated| ; 126 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated                ; work         ;
+;                |mult_vnl:mult1|            ; 126 (126)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult28|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated|mult_vnl:mult1 ; work         ;
 ;    |lpm_mult:Mult29|                       ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult29                                                                                            ; work         ;
 ;       |mult_sbt:auto_generated|            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult29|mult_sbt:auto_generated                                                                    ; work         ;
 ;    |lpm_mult:Mult2|                        ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult2                                                                                             ; work         ;
@@ -1667,11 +1668,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |mult_hbt:auto_generated|            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult47|mult_hbt:auto_generated                                                                    ; work         ;
 ;    |lpm_mult:Mult48|                       ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult48                                                                                            ; work         ;
 ;       |mult_sbt:auto_generated|            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult48|mult_sbt:auto_generated                                                                    ; work         ;
-;    |lpm_mult:Mult49|                       ; 145 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49                                                                                            ; work         ;
-;       |mult_fbt:auto_generated|            ; 145 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated                                                                    ; work         ;
-;          |alt_mac_mult:mac_mult1|          ; 145 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated|alt_mac_mult:mac_mult1                                             ; work         ;
-;             |mac_mult_9tg1:auto_generated| ; 145 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated|alt_mac_mult:mac_mult1|mac_mult_9tg1:auto_generated                ; work         ;
-;                |mult_1pl:mult1|            ; 145 (145)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated|alt_mac_mult:mac_mult1|mac_mult_9tg1:auto_generated|mult_1pl:mult1 ; work         ;
+;    |lpm_mult:Mult49|                       ; 144 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49                                                                                            ; work         ;
+;       |mult_fbt:auto_generated|            ; 144 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated                                                                    ; work         ;
+;          |alt_mac_mult:mac_mult1|          ; 144 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated|alt_mac_mult:mac_mult1                                             ; work         ;
+;             |mac_mult_9tg1:auto_generated| ; 144 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated|alt_mac_mult:mac_mult1|mac_mult_9tg1:auto_generated                ; work         ;
+;                |mult_1pl:mult1|            ; 144 (144)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult49|mult_fbt:auto_generated|alt_mac_mult:mac_mult1|mac_mult_9tg1:auto_generated|mult_1pl:mult1 ; work         ;
 ;    |lpm_mult:Mult4|                        ; 88 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult4                                                                                             ; work         ;
 ;       |mult_9at:auto_generated|            ; 88 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult4|mult_9at:auto_generated                                                                     ; work         ;
 ;          |alt_mac_mult:mac_mult1|          ; 88 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult4|mult_9at:auto_generated|alt_mac_mult:mac_mult1                                              ; work         ;
@@ -1725,11 +1726,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                |mult_vnl:mult1|            ; 114 (114)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult62|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated|mult_vnl:mult1 ; work         ;
 ;    |lpm_mult:Mult63|                       ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult63                                                                                            ; work         ;
 ;       |mult_sbt:auto_generated|            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult63|mult_sbt:auto_generated                                                                    ; work         ;
-;    |lpm_mult:Mult64|                       ; 118 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64                                                                                            ; work         ;
-;       |mult_dat:auto_generated|            ; 118 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated                                                                    ; work         ;
-;          |alt_mac_mult:mac_mult1|          ; 118 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated|alt_mac_mult:mac_mult1                                             ; work         ;
-;             |mac_mult_7sg1:auto_generated| ; 118 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated                ; work         ;
-;                |mult_vnl:mult1|            ; 118 (118)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated|mult_vnl:mult1 ; work         ;
+;    |lpm_mult:Mult64|                       ; 117 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64                                                                                            ; work         ;
+;       |mult_dat:auto_generated|            ; 117 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated                                                                    ; work         ;
+;          |alt_mac_mult:mac_mult1|          ; 117 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated|alt_mac_mult:mac_mult1                                             ; work         ;
+;             |mac_mult_7sg1:auto_generated| ; 117 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated                ; work         ;
+;                |mult_vnl:mult1|            ; 117 (117)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult64|mult_dat:auto_generated|alt_mac_mult:mac_mult1|mac_mult_7sg1:auto_generated|mult_vnl:mult1 ; work         ;
 ;    |lpm_mult:Mult65|                       ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult65                                                                                            ; work         ;
 ;       |mult_sbt:auto_generated|            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|lpm_mult:Mult65|mult_sbt:auto_generated                                                                    ; work         ;
 ;    |lpm_mult:Mult66|                       ; 116 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult66                                                                                            ; work         ;
@@ -1889,7 +1890,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |multiplex:fir_gen[60].DATA_MUX|        ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|multiplex:fir_gen[60].DATA_MUX                                                                             ; work         ;
 ;    |multiplex:fir_gen[61].DATA_MUX|        ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|multiplex:fir_gen[61].DATA_MUX                                                                             ; work         ;
 ;    |multiplex:fir_gen[62].DATA_MUX|        ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|multiplex:fir_gen[62].DATA_MUX                                                                             ; work         ;
-;    |multiplex:fir_gen[63].COEFF_MUX|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|multiplex:fir_gen[63].COEFF_MUX                                                                            ; work         ;
 ;    |multiplex:fir_gen[63].DATA_MUX|        ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|multiplex:fir_gen[63].DATA_MUX                                                                             ; work         ;
 ;    |multiplex:fir_gen[64].DATA_MUX|        ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|multiplex:fir_gen[64].DATA_MUX                                                                             ; work         ;
 ;    |multiplex:fir_gen[65].DATA_MUX|        ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|multiplex:fir_gen[65].DATA_MUX                                                                             ; work         ;
@@ -2420,12 +2420,12 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 4689  ;
-; Number of registers using Synchronous Clear  ; 26    ;
+; Total registers                              ; 4695  ;
+; Number of registers using Synchronous Clear  ; 33    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 4679  ;
+; Number of registers using Asynchronous Clear ; 4685  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 10    ;
+; Number of registers using Clock Enable       ; 35    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -2435,7 +2435,8 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
-; 8:1                ; 930 bits  ; 4650 LEs      ; 3720 LEs             ; 930 LEs                ; No         ; |fir|multiplex:fir_gen[44].DATA_MUX|Mux1 ;
+; 3:1                ; 27 bits   ; 54 LEs        ; 27 LEs               ; 27 LEs                 ; Yes        ; |fir|accumulator[0]                      ;
+; 8:1                ; 930 bits  ; 4650 LEs      ; 3720 LEs             ; 930 LEs                ; No         ; |fir|multiplex:fir_gen[44].DATA_MUX|Mux4 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 
 
@@ -24266,7 +24267,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:01:29     ;
+; Top            ; 00:01:18     ;
 +----------------+--------------+
 
 
@@ -24276,7 +24277,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Mar 13 02:05:02 2014
+    Info: Processing started: Fri Mar 14 14:33:38 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fir -c fir
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file multiplex.v
@@ -24292,8 +24293,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file multipl
 Info (12021): Found 1 design units, including 1 entities, in source file fir.v
     Info (12023): Found entity 1: fir
 Info (12127): Elaborating entity "fir" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at fir.v(46): truncated value with size 27 to match size of target (10)
-Warning (10230): Verilog HDL assignment warning at fir.v(55): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at fir.v(55): truncated value with size 27 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at fir.v(63): truncated value with size 32 to match size of target (8)
 Info (12128): Elaborating entity "shift_reg" for hierarchy "shift_reg:data_shift"
 Info (12128): Elaborating entity "shift" for hierarchy "shift_reg:data_shift|shift:U0"
 Info (12128): Elaborating entity "coeff_calc" for hierarchy "coeff_calc:coeff_gen[0].ARRAY_CELL"
@@ -25636,6 +25637,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/mac_
 Info (13014): Ignored 5640 buffer(s)
     Info (13016): Ignored 282 CARRY_SUM buffer(s)
     Info (13019): Ignored 5358 SOFT buffer(s)
+Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
+    Warning (13310): Register "run" is converted into an equivalent circuit using register "run~_emulated" and latch "run~1"
 Info (286030): Timing-Driven Synthesis is running
 Info (17016): Found the following redundant logic cells in design
     Info (17048): Logic cell "lpm_mult:Mult88|mult_9at:auto_generated|alt_mac_mult:mac_mult1|mac_mult_3sg1:auto_generated|mult_rnl:mult1|le6a[11]"
@@ -25708,17 +25711,24 @@ Info (17016): Found the following redundant logic cells in design
     Info (17048): Logic cell "lpm_mult:Mult39|mult_fbt:auto_generated|alt_mac_mult:mac_mult1|mac_mult_9tg1:auto_generated|mult_1pl:mult1|le9a[10]"
     Info (17048): Logic cell "lpm_mult:Mult45|mult_hbt:auto_generated|alt_mac_mult:mac_mult1|mac_mult_btg1:auto_generated|mult_3pl:mult1|le8a[12]"
     Info (17048): Logic cell "lpm_mult:Mult45|mult_hbt:auto_generated|alt_mac_mult:mac_mult1|mac_mult_btg1:auto_generated|mult_3pl:mult1|le9a[11]"
+Info (144001): Generated suppressed messages file Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/fir.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 13781 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 12 input pins
-    Info (21059): Implemented 10 output pins
-    Info (21061): Implemented 13647 logic cells
+Info (21057): Implemented 13794 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
+    Info (21059): Implemented 11 output pins
+    Info (21061): Implemented 13658 logic cells
     Info (21062): Implemented 112 DSP elements
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 595 megabytes
-    Info: Processing ended: Thu Mar 13 02:07:12 2014
-    Info: Elapsed time: 00:02:10
-    Info: Total CPU time (on all processors): 00:01:53
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 598 megabytes
+    Info: Processing ended: Fri Mar 14 14:35:36 2014
+    Info: Elapsed time: 00:01:58
+    Info: Total CPU time (on all processors): 00:01:43
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in Z:/Users/austinglaser/src/ecen3000/labs/lab6/fir_fpga/fir.map.smsg.
 
 

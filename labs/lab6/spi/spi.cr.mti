@@ -1,0 +1,8 @@
+Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi_test.v {1 {vlog -work work -sv Z:/Users/austinglaser/src/ecen3000/labs/lab6/spi/spi_test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module spi_test
+
+Top level modules:
+	spi_test
+
+} {} {}}

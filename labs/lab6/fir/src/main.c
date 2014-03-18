@@ -123,12 +123,12 @@ unsigned SPI_Send_Frame(unsigned data_out)
 }
 
 void FPGA_Reset(void) {
-	LPC_GPIO2->DATA &= ~(0x01 << 0);
+	LPC_GPIO1->DATA &= ~(0x01 << 7);
 
 	unsigned target = LPC_TMR32B0->TC + 500;
 	while (LPC_TMR32B0->TC < target);
 
-	LPC_GPIO2->DATA |= (0x01 << 0);
+	LPC_GPIO1->DATA |= (0x01 << 7);
 }
 
 void CLK_Setup(void)
@@ -208,23 +208,23 @@ void SPI_Setup(void)
 
 	// (SYSCLK = 12000000)/250 -> PCLK = 48000
 	LPC_SYSCON->SYSAHBCLKCTRL |= (0x1<<11);
-	LPC_SYSCON->SSP0CLKDIV = 250;
-	//LPC_SYSCON->SSP0CLKDIV = 1;
+	//LPC_SYSCON->SSP0CLKDIV = 250;
+	//LPC_SYSCON->SSP0CLKDIV = 25;
+	LPC_SYSCON->SSP0CLKDIV = 1;
 
 	// -- SPI -- //
 
 	LPC_SYSCON->PRESETCTRL |= (0x01 << 0); // de-assert SSP0 reset
 
 	// set first divider of 250 (PCLK / (CPSR*(SCR + 1)) = 48000/ (250*(191 + 1)) = 1
-	LPC_SSP0->CPSR = 250;
-	//LPC_SSP0->CPSR = 480;
+	LPC_SSP0->CPSR = 12;
+	//LPC_SSP0->CPSR = 48;
 	//LPC_SSP0->CPSR = 1;
 
 	// set to 10 bit, spi frame, second divider of 191 + 1 (0xBF)
-	LPC_SSP0->CR0 = 0x0000BF09;
-
-	// set to 10 bit, spi frame, second divider of 1 (0x00)
-	//LPC_SSP0->CR0 = 0x00000009;
+	//LPC_SSP0->CR0 = 0x0000BF09;
+	//LPC_SSP0->CR0 = 0x00000909;
+	LPC_SSP0->CR0 = 0x00000009;
 
 	// enable SPI0 (set bit 1 in CR1)
 	LPC_SSP0->CR1 |= (0x01 << 1);
@@ -252,7 +252,7 @@ void SPI_Setup(void)
 }
 
 void GPIO_Setup(void) {
-	LPC_GPIO2->DIR |= (0x01 << 0);
+	LPC_GPIO1->DIR |= (0x01 << 7);
 
-	LPC_GPIO2->DATA |= (0x01 << 0);
+	LPC_GPIO1->DATA |= (0x01 << 7);
 }
